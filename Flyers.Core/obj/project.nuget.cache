@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QP+a8lYJZHdZ4W4BCQ2DxOJNHpstve59nP9MLtbjyBmoDNMd0QKcPrhcc0G3qaddqbz0Nz1DxRH6i+TZoJqIZg==",
+  "dgSpecHash": "4xueTcOxK4G9RAZznsUjWhOyptqQmvpoC/1b9OAkG43v1/kx2ikTN+oB3MR8diX5xi90+8cxhH3p9MkmwEQNwg==",
   "success": true,
-  "projectFilePath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Core\\Flyers.Core.csproj",
+  "projectFilePath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Core\\Flyers.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fabio\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Fabio\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",

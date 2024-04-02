@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OKq/hy2b8XEJ0qgvyPpO79i0o27Up0jRscK92sZPV1CRpm8wtMNyS6uXJno0v1hMoFxkJ1qAtmVyxT9JbFEpDw==",
+  "dgSpecHash": "PKYNgWTJ0vdL7/GxP5glJaIFLcWvR0kynBrCpXykdrGouvlgBWXvx4DbbrN81sTSHRxz78q0OMtqL2ZT3p70wg==",
   "success": true,
-  "projectFilePath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\Flyers.Web.csproj",
+  "projectFilePath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Web\\Flyers.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fabio\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\Fabio\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

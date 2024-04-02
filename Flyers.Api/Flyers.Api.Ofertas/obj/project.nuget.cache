@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tnNY+hIf8EyYjEDb2RS5bjO1WU14fjjVfn2TrbMEVG/+sl0ND2GtzsALmrABUcL8euf86N1MQVTAwREx3w3cuA==",
+  "dgSpecHash": "fFNEI34z5nDoan0Fjqot5Y6IROrWJB3EuYKJQdOqVgilIrlIzGHFGpUFKUXzBg7QHIj8+CGO5OQU5uHJMaOhjA==",
   "success": true,
-  "projectFilePath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Api\\Flyers.Api.Ofertas\\Flyers.Api.Ofertas.csproj",
+  "projectFilePath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Api\\Flyers.Api.Ofertas\\Flyers.Api.Ofertas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fabio\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Fabio\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

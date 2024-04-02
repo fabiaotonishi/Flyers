@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Data\\Flyers.Data.csproj": {}
+    "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Data\\Flyers.Data.csproj": {}
   },
   "projects": {
-    "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Core\\Flyers.Core.csproj": {
+    "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Core\\Flyers.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Core\\Flyers.Core.csproj",
+        "projectUniqueName": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Core\\Flyers.Core.csproj",
         "projectName": "Flyers.Core",
-        "projectPath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Core\\Flyers.Core.csproj",
+        "projectPath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Core\\Flyers.Core.csproj",
         "packagesPath": "C:\\Users\\Fabio\\.nuget\\packages\\",
-        "outputPath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Core\\obj\\",
+        "outputPath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -92,14 +92,14 @@
         }
       }
     },
-    "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Data\\Flyers.Data.csproj": {
+    "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Data\\Flyers.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Data\\Flyers.Data.csproj",
+        "projectUniqueName": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Data\\Flyers.Data.csproj",
         "projectName": "Flyers.Data",
-        "projectPath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Data\\Flyers.Data.csproj",
+        "projectPath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Data\\Flyers.Data.csproj",
         "packagesPath": "C:\\Users\\Fabio\\.nuget\\packages\\",
-        "outputPath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Data\\obj\\",
+        "outputPath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -121,8 +121,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Core\\Flyers.Core.csproj": {
-                "projectPath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Core\\Flyers.Core.csproj"
+              "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Core\\Flyers.Core.csproj": {
+                "projectPath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Core\\Flyers.Core.csproj"
               }
             }
           }

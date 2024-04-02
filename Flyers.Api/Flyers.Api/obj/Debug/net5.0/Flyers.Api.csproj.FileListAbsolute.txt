@@ -22,3 +22,15 @@ D:\Arquivos projetos\Empresa\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\Flyer
 D:\Arquivos projetos\Empresa\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\refint\Flyers.Api.dll
 D:\Arquivos projetos\Empresa\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\Flyers.Api.pdb
 D:\Arquivos projetos\Empresa\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\ref\Flyers.Api.dll
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Api\Flyers.Api\bin\Debug\net5.0\Flyers.Api.deps.json
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Api\Flyers.Api\bin\Debug\net5.0\Flyers.Api.dll
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Api\Flyers.Api\bin\Debug\net5.0\Flyers.Api.pdb
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\Flyers.Api.csproj.AssemblyReference.cache
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\Flyers.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\Flyers.Api.AssemblyInfoInputs.cache
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\Flyers.Api.AssemblyInfo.cs
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\Flyers.Api.csproj.CoreCompileInputs.cache
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\Flyers.Api.dll
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\refint\Flyers.Api.dll
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\Flyers.Api.pdb
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Api\Flyers.Api\obj\Debug\net5.0\ref\Flyers.Api.dll

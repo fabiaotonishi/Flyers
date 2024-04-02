@@ -8269,11 +8269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Data\\Flyers.Data.csproj",
+      "projectUniqueName": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Data\\Flyers.Data.csproj",
       "projectName": "Flyers.Data",
-      "projectPath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Data\\Flyers.Data.csproj",
+      "projectPath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Data\\Flyers.Data.csproj",
       "packagesPath": "C:\\Users\\Fabio\\.nuget\\packages\\",
-      "outputPath": "D:\\Arquivos Projetos\\Empresa\\Flyers\\Flyers.Data\\obj\\",
+      "outputPath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8295,8 +8295,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Core\\Flyers.Core.csproj": {
-              "projectPath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Core\\Flyers.Core.csproj"
+            "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Core\\Flyers.Core.csproj": {
+              "projectPath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Core\\Flyers.Core.csproj"
             }
           }
         }

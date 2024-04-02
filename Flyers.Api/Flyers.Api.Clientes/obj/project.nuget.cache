@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UbFwbAMzTK/gJYU6i7xqqrdx1Eo1k+ZlRYpFOJaBuMzUKzpLdbiiMzFf0Aj887LVZ+6rMUd/LQqJVDy+sId6zQ==",
+  "dgSpecHash": "YdBtx3C+jK/hBcglQWq01xnYpS7MBY0eiCIzMUya4/Sk5NdopPzZs5vV4xpRnWMBZbL26DK7ehowtdoJ5kpfFg==",
   "success": true,
-  "projectFilePath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Api\\Flyers.Api.Clientes\\Flyers.Api.Clientes.csproj",
+  "projectFilePath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Api\\Flyers.Api.Clientes\\Flyers.Api.Clientes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fabio\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Fabio\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

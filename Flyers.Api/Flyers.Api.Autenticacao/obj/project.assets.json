@@ -7549,11 +7549,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Api\\Flyers.Api.Autenticacao\\Flyers.Api.Autenticacao.csproj",
+      "projectUniqueName": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Api\\Flyers.Api.Autenticacao\\Flyers.Api.Autenticacao.csproj",
       "projectName": "Flyers.Api.Autenticacao",
-      "projectPath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Api\\Flyers.Api.Autenticacao\\Flyers.Api.Autenticacao.csproj",
+      "projectPath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Api\\Flyers.Api.Autenticacao\\Flyers.Api.Autenticacao.csproj",
       "packagesPath": "C:\\Users\\Fabio\\.nuget\\packages\\",
-      "outputPath": "D:\\Arquivos Projetos\\Empresa\\Flyers\\Flyers.Api\\Flyers.Api.Autenticacao\\obj\\",
+      "outputPath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Api\\Flyers.Api.Autenticacao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7575,8 +7575,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Api\\Flyers.Api\\Flyers.Api.csproj": {
-              "projectPath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Api\\Flyers.Api\\Flyers.Api.csproj"
+            "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Api\\Flyers.Api\\Flyers.Api.csproj": {
+              "projectPath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Api\\Flyers.Api\\Flyers.Api.csproj"
             }
           }
         }

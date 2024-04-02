@@ -18,3 +18,13 @@ D:\Arquivos projetos\Empresa\Flyers\Flyers.Core\obj\Debug\netstandard2.1\Flyers.
 D:\Arquivos projetos\Empresa\Flyers\Flyers.Core\obj\Debug\netstandard2.1\Flyers.Core.csproj.CoreCompileInputs.cache
 D:\Arquivos projetos\Empresa\Flyers\Flyers.Core\obj\Debug\netstandard2.1\Flyers.Core.dll
 D:\Arquivos projetos\Empresa\Flyers\Flyers.Core\obj\Debug\netstandard2.1\Flyers.Core.pdb
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Core\bin\Debug\netstandard2.1\Flyers.Core.deps.json
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Core\bin\Debug\netstandard2.1\Flyers.Core.dll
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Core\bin\Debug\netstandard2.1\Flyers.Core.pdb
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Core\obj\Debug\netstandard2.1\Flyers.Core.csproj.AssemblyReference.cache
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Core\obj\Debug\netstandard2.1\Flyers.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Core\obj\Debug\netstandard2.1\Flyers.Core.AssemblyInfoInputs.cache
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Core\obj\Debug\netstandard2.1\Flyers.Core.AssemblyInfo.cs
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Core\obj\Debug\netstandard2.1\Flyers.Core.csproj.CoreCompileInputs.cache
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Core\obj\Debug\netstandard2.1\Flyers.Core.dll
+D:\Arquivos Projetos\GitHub\Flyers\Flyers.Core\obj\Debug\netstandard2.1\Flyers.Core.pdb

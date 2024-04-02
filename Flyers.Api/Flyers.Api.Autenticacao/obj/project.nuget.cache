@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GmHID9i0SCGcF1U4uJzQzGziz8LtIfoJaZz0TGRNNKTVhUOShiQFIg+AnYcSxKK+7eMFT+mw6gcj3aM1tNrPCg==",
+  "dgSpecHash": "cimto1QHUfSJru/CNdsOjFZ3YSmt7H9W2kW84VShOsIoHkqszjJHon5b7YupSR3ywDPqW62/QQqJgelvoUEUoA==",
   "success": true,
-  "projectFilePath": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Api\\Flyers.Api.Autenticacao\\Flyers.Api.Autenticacao.csproj",
+  "projectFilePath": "D:\\Arquivos Projetos\\GitHub\\Flyers\\Flyers.Api\\Flyers.Api.Autenticacao\\Flyers.Api.Autenticacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fabio\\.nuget\\packages\\easynetq\\6.3.1\\easynetq.6.3.1.nupkg.sha512",
     "C:\\Users\\Fabio\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
