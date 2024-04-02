@@ -1,0 +1,92 @@
+﻿@model ImagemViewModel
+
+<form id="edita-imagem-banner" asp-action="_EditaImagem" asp-controller="Midias" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-row">
+        <div class="form-group">
+            <input asp-for="Entidade" type="hidden" />
+            <input asp-for="Pasta" type="hidden" />
+            <input asp-for="Nome" type="hidden" />
+            <input asp-for="Url" type="hidden" />
+            <input asp-for="Dados" type="hidden" />
+        </div>
+        <div class="input-group col-12">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Arquivo</span>
+            </div>
+            <div class="custom-file">
+                <input asp-for="Arquivo" type="file" class="custom-file-input" lang="pt-br"/>
+                <label class="custom-file-label" for="Arquivo">Selecione uma imagem</label>
+            </div>
+            <div class="input-group-append">
+                <button type="button" data-action="cortar" class="btn btn-secondary" disabled>
+                    <i class="fa-fw fas fa-cut"></i>
+                </button>
+            </div>
+        </div>
+        <div class="text-center mb-4 col-12">
+            <span asp-validation-for="Arquivo" class="text-danger"></span>
+        </div>
+        @*<div class="form-group text-right">
+            <input type="submit" value="Confirmar" data-action="confirmar" class="btn btn-primary" />
+        </div>*@
+    </div>
+</form>
+<script>
+    $(function () {
+        const $editaImagemBanner = $('#edita-imagem-banner');
+        //inicializa
+        $editaImagemBanner.croppie("destroy");
+        $editaImagemBanner.croppie({
+            autoCrop: true,
+            viewport: { width: 300, height: 150 },
+            boundary: { width: 450, height: 300 },
+            showZoomer: true,
+            enforceBoundary: false,
+            enableExif: true,
+            url: '/img/image.svg',
+            format: 'jpeg' | 'png' | 'gif' | 'webp'
+        });
+
+        $editaImagemBanner.on('change', 'input[type="file"]', function (evento) {
+            evento.preventDefault();
+            if (this.files && this.files[0]) {
+                const nome = $(this)[0].value;
+                const tipo = nome.substring(nome.lastIndexOf('.') + 1).toLowerCase();
+                if (tipo == "png" || tipo == "jpg" || tipo == "jpeg" || tipo == "gif" || tipo == "webp") {
+                    let reader = new FileReader();
+                    reader.onload = function (e) {
+                        $editaImagemBanner.croppie('bind', {
+                            url: e.target.result
+                        }).then(function () {
+                            $editaImagemBanner.find('button').prop('disabled', false);
+                            $editaImagemBanner.find('button').focus().click();
+                        });
+                    }
+                    reader.readAsDataURL(this.files[0]);
+                }
+            }
+            evento.stopPropagation();
+        });
+
+        $editaImagemBanner.on('click', 'button[data-action="cortar"]', function (evento) {
+            evento.preventDefault();
+            const nome = $('#Arquivo')[0].value;
+            const tipo = nome.substring(nome.lastIndexOf('.') + 1).toLowerCase();
+
+            $editaImagemBanner.croppie('result', {
+                type: 'canvas',
+                size: 'viewport',
+                quality: 0.7,
+                format: tipo,
+                size: {
+                    width: 1280,
+                    height: 720
+                }
+            }).then(function (resposta) {
+                $('#Dados').val(resposta);
+                webapp.ui.mensagem.sucesso("Sucesso", "Imagem recortada com sucesso");
+            });
+        });
+    });
+</script>

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<OfertaEntity>
+
+@if (Model.Count() > 0)
+{
+<div id="destaque-promocao" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        @for (int i = 0; i < Model.Count(); i++)
+        {
+            <li data-target="#destaque-promocao" class="@(i == 0 ? " active" : "")" data-slide-to="@i"></li>
+        }
+    </ol>
+    <div class="carousel-inner">
+        @foreach (var oferta in Model)
+        {
+            <div class="carousel-item content @(oferta == Model.First() ? " active" : "")">
+                @if (!oferta.Imagem.Url.Equals("/img/image.svg"))
+                {
+                    <img src="@oferta.Imagem.Url" class="d-block w-100" alt="@oferta.Nome">
+                }
+                else
+                {
+                    <img src="~/img/layer.png" class="d-block w-100">
+                }
+                <div class="carousel-caption d-md-block">
+                    <h2 class="h1 font-weight-bold mb-4 animate__animated animate__fadeInDown">@oferta.Nome</h2>
+                    <a asp-action="Index" asp-controller="Promocao" asp-route-id="@oferta.Id" asp-route-slug="@oferta.Nome.ToUrl()" class="btn btn-lg btn-primary animate__animated animate__fadeInUp">
+                        Promoção
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+    @if (Model.Count() > 1)
+    {
+        <a class="carousel-control-prev" href="#destaque-promocao" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"><i class="fa fa-arrow-alt-circle-left"></i></span>
+        </a>
+        <a class="carousel-control-next" href="#destaque-promocao" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"><i class="fa fa-arrow-alt-circle-right"></i></span>
+        </a>
+    }
+</div>
+}
+

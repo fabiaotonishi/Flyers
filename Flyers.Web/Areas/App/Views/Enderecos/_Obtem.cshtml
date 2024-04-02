@@ -1,0 +1,19 @@
+﻿@model EnderecoEntity
+
+<div id="obtem-endereco" class="row">
+    <div class="col-auto col-md-3">
+        <div class="nav flex-column nav-pills my-3" role="tablist" aria-orientation="vertical">
+            <a data-action="trocar-edita-endereco" asp-action="Obtem" asp-controller="Enderecos" asp-route-id="@Model.Id" class="nav-link text-center text-md-left active" data-toggle="pill" role="tab" aria-controls="tab-obtem-endereco">
+                <i class="fa-fw fas fa-map-pin"></i>
+                <span class="text-xs d-none d-md-inline text-uppercase font-weight-bold">Principal</span>
+            </a>
+        </div>
+    </div>
+    <div class="col col-md-9">
+        <div class="tab-content">
+            <div id="tab-obtem-endereco" class="tab-pane fade show active" role="tabpanel">
+                @await Html.PartialAsync("_Edita.cshtml", Model)
+            </div>
+        </div>
+    </div>
+</div>

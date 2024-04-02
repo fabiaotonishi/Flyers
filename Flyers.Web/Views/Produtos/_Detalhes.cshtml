@@ -1,0 +1,31 @@
+﻿@model ProdutoEntity
+
+<div id="detalhes-produto" class="container">
+    <div class="row">
+        @if (Model.Imagem != null)
+        {
+            <div class="col">
+                <div class="easyzoom easyzoom--adjacent">
+                    <a href="@Model.Imagem.Url">
+                        <img src="@Model.Imagem.Url" alt="@Model.Nome" class="img-fluid rounded" />
+                    </a>
+                </div>
+            </div>
+        }
+        <div class="col">
+            <strong class="d-inline-block small text-muted text-uppercase mb-2">@Model.Categoria.Nome</strong>
+            <h2 class="h3 font-weight-bold mb-0">@Model.Nome</h2>
+            <hr />
+            <div class="text-left">
+                <strong class="h5">Descrição</strong>
+                <p class="card-text text-justify mb-auto">@Html.Raw(Model.Descricao)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.easyzoom').easyZoom();
+    });
+</script>

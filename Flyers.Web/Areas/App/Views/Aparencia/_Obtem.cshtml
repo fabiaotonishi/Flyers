@@ -1,0 +1,10 @@
+﻿@model LayoutViewModel
+
+<div id="obtem-aparencia" class="row">
+    <div class="col-md-3">
+        @await Html.PartialAsync("_Edita.cshtml")
+    </div>
+    <div class="col-md-9">
+        @await Html.PartialAsync("_Mostra.cshtml")
+    </div>
+</div>

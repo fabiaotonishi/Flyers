@@ -1,0 +1,3 @@
+Connection String: In Azure portal, Settings -> Configurations -> Application Settings -> Connection String. The Name is what you selected (using the example above, it would be “DefaultSQLiteConnection”. The Value is: Data Source=D:\home\site\wwwroot\App_Data\appdb.sqlite. The Type is: “Custom”
+
+Data Source=./Flayers.db

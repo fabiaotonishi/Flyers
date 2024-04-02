@@ -1,0 +1,74 @@
+﻿@model IEnumerable<OfertaProdutoEntity>
+
+<div id="lista-oferta-produto" class="row">
+    <div class="col-md-12">
+        <div class="table-toolbar mr-2 mb-3">
+            <a data-action="editar-modal" asp-controller="OfertasProdutos" asp-action="Edita" asp-route-categoria="0" class="btn btn-primary">
+                <i class="fa-fw fa fa-edit"></i>
+            </a>
+        </div>
+        <table class="table">
+            <thead>
+                <tr class="text-center">
+                    <th data-field="@Html.DisplayNameFor(model => model.Produto.Categoria)"
+                        data-sortable="true">
+                        @Html.DisplayNameFor(model => model.Produto.Categoria)
+                    </th>
+                    <th data-field="@Html.DisplayNameFor(model => model.Produto)"
+                        data-sortable="true"
+                        class="w-25">
+                        @Html.DisplayNameFor(model => model.Produto)
+                    </th>
+                    <th data-field="@Html.DisplayNameFor(model => model.Preco)"
+                        data-sortable="true">
+                        @Html.DisplayNameFor(model => model.Preco)
+                    </th>
+                    <th data-field="@Html.DisplayNameFor(model => model.Desconto)"
+                        data-sortable="true">
+                        % Desc.
+                    </th>
+                    <th data-field="Oferta"
+                        data-sortable="true">
+                        Promoção
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var ofertaProduto in Model)
+                {
+                    <tr>
+                        <td class="text-left">
+                            @Html.DisplayFor(modelItem => ofertaProduto.Produto.Categoria.Nome)
+                        </td>
+                        <td class="text-left">
+                            @Html.DisplayFor(modelItem => ofertaProduto.Produto.Nome)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => ofertaProduto.Preco)
+                        </td>
+                        <td class="text-right">
+                            @string.Format("{0:0.00}", ofertaProduto.Desconto)
+                        </td>
+                        <td class="text-right font-weight-bold">
+                            @Html.DisplayFor(modelItem => ofertaProduto.PrecoDesconto)
+                        </td>
+                        <td class="text-right">
+                            <div class="btn-group" role="group">
+                                <a data-action="apagar-modal" asp-action="Apaga" asp-controller="OfertasProdutos" asp-route-id="@ofertaProduto.Id" class="btn btn-danger">
+                                    <i class="fa-fw fa fa-eraser"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        webapp.ui.tabelabt.ativa('#lista-oferta-produto .table');
+    });
+</script>

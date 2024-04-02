@@ -1,0 +1,9 @@
+﻿@model ProdutoEntity
+
+<form id="apaga-produto" asp-action="_Apaga" asp-controller="Produtos" method="post">
+    <div class="text-center align-middle">
+        <h6 class="h3 text-danger text-uppercase font-weight-bold my-2">Atenção</h6>
+        <p>Deseja a exclusão desse registro?</p>
+    </div>
+    <input asp-for="Id" type="hidden" />
+</form>

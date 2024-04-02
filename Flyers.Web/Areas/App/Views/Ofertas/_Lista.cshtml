@@ -1,0 +1,64 @@
+﻿@model IEnumerable<OfertaEntity>
+
+<div id="lista-oferta" class="row">
+    <div class="col-md-12">
+        <div class="table-toolbar mr-2 mb-3">
+            <a data-action="editar-lista" asp-action="Exibe" asp-controller="Ofertas" class="btn btn-primary">
+                <i class="fa-fw fa fa-edit"></i>
+            </a>
+        </div>
+        <table class="table">
+            <thead>
+                <tr class="text-center">
+                    <th data-field="@Html.DisplayNameFor(model => model.Inicio)"
+                        data-sortable="true">
+                        Início
+                    </th>
+                    <th data-field="@Html.DisplayNameFor(model => model.Termino)"
+                        data-sortable="true">
+                        Término
+                    </th>
+                    <th data-field="Oferta"
+                        data-sortable="true"
+                        class="w-50">
+                        Oferta
+                    </th>
+                    <th data-field="@Html.DisplayNameFor(model => model.Inativo)"
+                        data-sortable="true">
+                        @Html.DisplayNameFor(model => model.Inativo)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var oferta in Model)
+                {
+                <tr>
+                    <td class="text-left">
+                        @Html.DisplayFor(modelItem => oferta.Inicio)
+                    </td>
+                    <td class="text-right">
+                        @Html.DisplayFor(modelItem => oferta.Termino)
+                    </td>
+                    <td class="text-left">
+                        @Html.DisplayFor(modelItem => oferta.Nome)
+                    </td>
+                    <td class="text-center">
+                        @Html.DisplayFor(modelItem => oferta.Inativo)
+                    </td>
+                    <td class="text-right">
+                        <div class="btn-group" role="group">
+                            <a data-action="editar-lista" asp-action="Exibe" asp-controller="Ofertas" asp-route-id="@oferta.Id" class="btn btn-primary">
+                                <i class="fa-fw fa fa-edit"></i>
+                            </a>
+                            <a data-action="apagar-modal" asp-action="Apaga" asp-controller="Ofertas" asp-route-id="@oferta.Id" class="btn btn-danger">
+                                <i class="fa fa-eraser"></i>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

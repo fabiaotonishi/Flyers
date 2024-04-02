@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-06-13T01:43:54.2575563Z"
+    }
+  },
+  "parameters": {
+    "MowbiTeste.subscriptionId": {
+      "Name": "MowbiTeste.subscriptionId",
+      "Type": "subscription",
+      "Value": "3f4aae14-1c93-49fd-8ffa-0eecf3386491"
+    },
+    "MowbiTeste.resourceGroupLocation": {
+      "Name": "MowbiTeste.resourceGroupLocation",
+      "Type": null,
+      "Value": "southcentralus"
+    },
+    "MowbiTeste.resourceName": {
+      "Name": "MowbiTeste.resourceName",
+      "Type": null,
+      "Value": "MowbiTeste"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "3f4aae14-1c93-49fd-8ffa-0eecf3386491"
+    },
+    "MowbiTeste.resourceGroupName": {
+      "Name": "MowbiTeste.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Teste"
+    }
+  }
+}

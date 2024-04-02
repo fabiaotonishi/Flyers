@@ -1,0 +1,10 @@
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\bin\Release\netstandard2.1\Flyers.Core.deps.json
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\bin\Release\netstandard2.1\Flyers.Core.dll
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\bin\Release\netstandard2.1\Flyers.Core.pdb
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Release\netstandard2.1\Flyers.Core.csprojAssemblyReference.cache
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Release\netstandard2.1\Flyers.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Release\netstandard2.1\Flyers.Core.AssemblyInfoInputs.cache
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Release\netstandard2.1\Flyers.Core.AssemblyInfo.cs
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Release\netstandard2.1\Flyers.Core.csproj.CoreCompileInputs.cache
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Release\netstandard2.1\Flyers.Core.dll
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Release\netstandard2.1\Flyers.Core.pdb

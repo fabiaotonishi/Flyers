@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CategoriaEntity>
+
+<div id="lista-categoria" class="row">
+    <div class="col-md-12">
+        <div class="table-toolbar mr-2 mb-3">
+            <a data-action="editar-lista" asp-action="Exibe" asp-controller="Categorias" class="btn btn-primary">
+                <i class="fa-fw fa fa-edit"></i>
+            </a>
+        </div>
+        <table class="table table-striped rounded bg-white">
+            <thead>
+                <tr class="text-center">
+                    <th data-field="Categoria"
+                        data-sortable="true"
+                        class="w-75">
+                        Categoria
+                    </th>
+                    <th data-field="@Html.DisplayNameFor(model => model.Inativo)"
+                        data-sortable="true"
+                        class="text-center">
+                        @Html.DisplayNameFor(model => model.Inativo)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var categoria in Model)
+                {
+                    <tr>
+                        <td class="text-left">
+                            @Html.DisplayFor(modelItem => categoria.Nome)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => categoria.Inativo)
+                        </td>
+                        <td class="text-right">
+                            <div class="btn-group" role="group">
+                                <a data-action="editar-lista" asp-action="Exibe" asp-controller="Categorias" asp-route-id="@categoria.Id" class="btn btn-primary">
+                                    <i class="fa-fw fa fa-edit"></i>
+                                </a>
+                                <a data-action="apagar-modal" asp-action="Apaga" asp-controller="Categorias" asp-route-id="@categoria.Id" class="btn btn-danger">
+                                    <i class="fa fa-eraser"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

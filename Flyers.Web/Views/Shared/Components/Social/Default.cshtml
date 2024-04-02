@@ -1,0 +1,39 @@
+﻿@model IEnumerable<RedeSocialEntity>
+
+@if (Model.Count() > 0)
+{
+    <div class="bg-dark py-3">
+        <div class="d-flex justify-content-center align-content-center">
+            @foreach (var redeSocial in Model)
+            {
+                @switch (redeSocial.Canal)
+                {
+                    case CanalValue.Facebook:
+                        <a href="@redeSocial.Url" target="_blank" class="btn btn-social-icon btn-facebook btn-rounded">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        break;
+                    case CanalValue.Instagram:
+                        <a href="@redeSocial.Url" target="_blank" class="btn btn-social-icon btn-instagram btn-rounded">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        break;
+                    case CanalValue.Youtube:
+                        <a href="@redeSocial.Url" target="_blank" class="btn btn-social-icon btn-youtube btn-rounded">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        break;
+                    case CanalValue.Twitter:
+                        <a href="@redeSocial.Url" target="_blank" class="btn btn-social-icon btn-twitter btn-rounded">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        break;
+                }
+            }
+        </div>
+    </div>
+}
+
+
+
+

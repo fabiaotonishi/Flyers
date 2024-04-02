@@ -1,0 +1,15 @@
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\bin\Debug\net5.0\Flyers.Core.deps.json
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\bin\Debug\net5.0\Flyers.Core.runtimeconfig.json
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\bin\Debug\net5.0\Flyers.Core.runtimeconfig.dev.json
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\bin\Debug\net5.0\Flyers.Core.dll
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\bin\Debug\net5.0\ref\Flyers.Core.dll
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\bin\Debug\net5.0\Flyers.Core.pdb
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Debug\net5.0\Flyers.Core.csproj.AssemblyReference.cache
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Debug\net5.0\Flyers.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Debug\net5.0\Flyers.Core.AssemblyInfoInputs.cache
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Debug\net5.0\Flyers.Core.AssemblyInfo.cs
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Debug\net5.0\Flyers.Core.csproj.CoreCompileInputs.cache
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Debug\net5.0\Flyers.Core.dll
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Debug\net5.0\ref\Flyers.Core.dll
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Debug\net5.0\Flyers.Core.pdb
+D:\Arquivos Projetos\Empresa\Flyers\Flyers\Flyers.Core\obj\Debug\net5.0\Flyers.Core.genruntimeconfig.cache

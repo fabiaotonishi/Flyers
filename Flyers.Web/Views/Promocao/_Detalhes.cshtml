@@ -1,0 +1,9 @@
+﻿@model OfertaEntity
+
+<div id="detalhes-promocao" class="banner parallax" style="background-image: url('@(Model.Imagem.Url.Equals("/img/image.svg") ? "" : Model.Imagem.Url)'); ">
+    <div id="banner-promocao-produto" class="container content my-5">
+        <h2 class="h1 font-weight-bold mb-4 animate__animated animate__fadeInDown">@Model.Nome</h2>
+        <p class="lead font-weight-normal animate__animated animate__fadeIn animate__delay-2s">@Html.Raw(Model.Descricao)</p>
+        <a class="btn btn-lg btn-primary animate__animated animate__fadeInUp btn-content scroll-to-div" href="#index-promocao-catalogo" role="button">Conferir</a>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+﻿@model OfertaProdutoDataTableDto
+
+@if (Model.TabelaTotal > 0)
+{
+    <div id="listagem-promocao" class="mb-3">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 grid-group mb-3" data-masonry='{"percentPosition": true }'>
+            @foreach (var ofertaProduto in Model.Tabela)
+            {
+                <div class="col grid-item animate__animated animate__fadeIn list-group">
+                    <a asp-action="Detalhes" asp-controller="Produtos" asp-route-id="@ofertaProduto.IdProduto" data-action="exibir" class="list-group-item list-group-item-action border-0">
+                        <div class="row no-gutters overflow-hidden flex-md-row my-2 h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block text-muted text-uppercase mb-1">
+                                    @ofertaProduto.Produto.Categoria.Nome
+                                </strong>
+                                <h3 class="h3 font-weight-bold mb-1">@ofertaProduto.Produto.Nome</h3>
+                                <div class="mb-1 text-muted text-right">
+                                    <div class="small">
+                                        De
+                                        <span class="line-through">
+                                            @string.Format("{0:C}", ofertaProduto.Preco)
+                                        </span>
+                                    </div>
+                                    <div class="h4 font-weight-bold">
+                                        Por
+                                        <span>
+                                            @string.Format("{0:C}", ofertaProduto.PrecoDesconto)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            @if (!string.Equals(ofertaProduto.Produto.Imagem.Nome, "image"))
+                            {
+                                <div class="col-auto d-none d-lg-block">
+                                    <img width="250" src="@ofertaProduto.Produto.Imagem.Url" alt="@ofertaProduto.Produto.Nome" class="img-fluid bg-light">
+                                </div>
+                            }
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+        <div class="d-flex align-items-center flex-column mb-3">
+            <ul class="pagination">
+                <li class="@(Model.PaginaAtual == 0 ? "page-item disabled" : "page-item active")">
+                    <button data-action="voltar" data-index="@(Model.PaginaAtual - 1)" class="page-link"><i class="fas fa-angle-left"></i></button>
+                </li>
+                @for (int i = 1; i <= Model.TotalDePaginas(); i++)
+                {
+                    <li class="@(Model.PaginaAtual == (i - 1) ? "page-item disabled" : "page-item active")">
+                        <button data-action="seguir" data-index="@(i - 1)" class="page-link">@i</button>
+                    </li>
+                }
+                <li class="@(Model.PaginaAtual + 1 == Model.TotalDePaginas() ? "page-item disabled" : "page-item active")">
+                    <button data-action="seguir" data-index="@(Model.PaginaAtual + 1)" class="page-link"><i class="fas fa-angle-right"></i></button>
+                </li>
+            </ul>
+            <span class="small text-uppercase">Total de @Model.TabelaTotal registros</span>
+        </div>
+    </div>
+}

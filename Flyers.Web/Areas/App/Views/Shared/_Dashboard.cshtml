@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- metatags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="noindex" />
+    <title>@ViewData["Title"] - Flyers</title>
+    <!-- favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="~/lib/bootstrap-table/bootstrap-table.min.css" />
+    <link rel="stylesheet" href="~/lib/animate/animate.min.css" />
+    <link rel="stylesheet" href="~/lib/normalize/normalize.min.css" />
+    <link rel="stylesheet" href="~/lib/overlayscrollbars/css/OverlayScrollbars.min.css" />
+    <link rel="stylesheet" href="~/lib/summernote/summernote-bs4.min.css" />
+    <link rel="stylesheet" href="~/lib/croppie/croppie.min.css" />
+    <link rel="stylesheet" href="~/lib/aos/aos.css" />
+    <link rel="stylesheet" href="~/lib/jquery-toast/jquery.toast.min.css" />
+    <link rel="stylesheet" href="~/lib/jquery-owl/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/lib/jquery-owl/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="~/css/app.min.css" />
+    @RenderSection("Styles", required: false)
+</head>
+<body id="pagina">
+    @{
+        var dominio = HttpContextAccessor.HttpContext.Session.GetObject<DominioEntity>("Dominio");
+    }
+    <!-- wrapper -->
+    <div id="wrapper" class="bg-gradient-primary">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <!-- sidebar -->
+            @await Component.InvokeAsync("Menu")
+            <!-- content-wrapper -->
+            <div id="content-wrapper" class="d-flex flex-column">
+                <!-- content -->
+                <div id="content">
+                    <!-- topbar -->
+                    <nav class="navbar navbar-expand navbar-light bg-white topbar static-top shadow">
+                        <!-- sidebar toggle -->
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <div class=" mr-auto ml-md-3 my-2 my-md-0 mw-100">
+                            <h2 class="h6 mb-0 font-weight-bold">@dominio.Nome</h2>
+                        </div>
+                        <!-- navbar -->
+                        <ul class="navbar-nav ml-auto">
+                            <!-- alerts -->
+                            @*<li class="nav-item dropdown no-arrow mx-1">
+                                    @await Component.InvokeAsync("Aviso")
+                                </li>
+                                <div class="topbar-divider d-none d-sm-block"></div>*@
+                            <!-- profile -->
+                            <li class="nav-item dropdown no-arrow">
+                                @await Component.InvokeAsync("Perfil")
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- main -->
+                    <main id="content-body">
+                        @RenderBody()
+                    </main>
+                </div>
+                <!-- footer -->
+                <footer class="sticky-footer bg-white">
+                    <div class="copyright text-center my-auto">
+                        <div class="small mb-1">
+                            &copy; @DateTime.Now.Year - @dominio.Nome
+                        </div>
+                        <div class="small">
+                            <a href="https://www.mowbi.com.br" target="_blank" class="text-xs text-decoration-none">Flyers <sup>beta</sup> desenvolvido por MoWBI T.I.C</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        }
+        else
+        {
+            //main
+            <main id="content-body" class="vw-100">
+                @RenderBody()
+            </main>
+        }
+    </div>
+    <!-- bsmodal -->
+    <div id="dialogo-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title mb-0 font-weight-bold"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer justify-content-center align-content-center">
+                    <div class="d-grid gap-2 d-md-block">
+                        <button type="button" data-dismiss="modal" class="btn btn-secondary btn-icon-split">
+                            <span class="icon text-white-50">
+                                <i class="fas fa-arrow-left"></i>
+                            </span>
+                            <span class="text">Cancelar</span>
+                        </button>
+                        <button data-action="confirmar" type="button" class="btn btn-primary btn-icon-split">
+                            <span class="icon text-white-50">
+                                <i class="fas fa-check"></i>
+                            </span>
+                            <span class="text">Confirmar</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blockui -->
+    <div id="carregando" style="display:none;">
+        <div class="d-flex justify-content-center" style="display:none;">
+            <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Carregando...</span>
+            </div>
+        </div>
+    </div>
+    <!-- easing -->
+    <a class="scroll-to-top rounded" href="#pagina">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- js -->
+    <script src="~/lib/modernizr/modernizr.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/lib/jquery-easing/jquery.easing.min.js"></script>
+    <script src="~/lib/jquery-owl/owl.carousel.min.js"></script>
+    <script src="~/lib/jquery-blockui/jquery.blockUI.min.js"></script>
+    <script src="~/lib/jquery-mask/jquery.mask.min.js"></script>
+    <script src="~/lib/jquery-toast/jquery.toast.min.js"></script>
+    <script src="~/lib/overlayscrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <script src="~/lib/summernote/summernote-bs4.min.js"></script>
+    <script src="~/lib/summernote/lang/summernote-pt-BR.min.js"></script>
+    <script src="~/lib/masonry/masonry.pkgd.min.js"></script>
+    <script src="~/lib/croppie/croppie.min.js"></script>
+    <script src="~/lib/aos/aos.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootstrap-table/bootstrap-table.min.js"></script>
+    <script src="~/lib/bootstrap-table/bootstrap-table-locale-all.min.js"></script>
+    <script src="~/js/themes/admin.min.js"></script>
+    <script src="~/js/webapp.modules.min.js"></script>
+    <script src="~/js/app.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

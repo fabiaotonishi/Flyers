@@ -1,0 +1,105 @@
+﻿@{
+    var perfil = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
+}
+
+<ul id="menu" class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion">
+    <!-- logotipo -->
+    <li>
+        <a asp-action="Index" asp-controller="Home" class="sidebar-brand d-flex align-items-center justify-content-center">
+            <div class="sidebar-brand-icon mx-3">
+                <img src="~/assets/brand.png" alt="Flyers" class="img-fluid w-75" />
+            </div>
+            <div class="sidebar-brand-text mx-3">
+                <img src="~/assets/flyers.png" alt="Flyers" class="img-fluid w-75" />
+            </div>
+        </a>
+    </li>
+    <hr class="sidebar-divider">
+    <div class="sidebar-heading text-left">
+        Menu
+    </div>
+    <!-- navitens -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menu-promocao"
+           aria-expanded="true" aria-controls="menu-promocao">
+            <i class="fas fa-bullhorn"></i>
+            <span class="font-weight-bold text-uppercase">Promoção</span>
+        </a>
+        <div id="menu-promocao" class="collapse" aria-labelledby="promocao" data-parent="#menu">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <b class="collapse-header">Promoções</b>
+                <a asp-action="Index" asp-controller="Ofertas" class="collapse-item">
+                    <i class="fas fa-gifts fa-sm mr-2 text-gray-400"></i>
+                    <span class="text-gray-800">Ofertas</span>
+                </a>
+                @*<a asp-action="Index" asp-controller="Pedidos" class="collapse-item">
+                        <i class="fas fa-shopping-cart fa-sm mr-2 text-gray-400"></i>
+                        <span class="text-gray-800">Pedidos</span>
+                    </a>
+                <a asp-action="Index" asp-controller="Faturas" class="collapse-item">
+                    <i class="far fa-credit-card fa-sm mr-2 text-gray-400"></i>
+                    <span class="text-gray-800">Faturas</span>
+                </a>*@
+            </div>
+        </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menu-cadastro"
+           aria-expanded="true" aria-controls="menu-cadastro">
+            <i class="fas fa-folder"></i>
+            <span class="font-weight-bold text-uppercase">Cadastro</span>
+        </a>
+        <div id="menu-cadastro" class="collapse" aria-labelledby="cadastro" data-parent="#menu">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Cadastros</h6>
+                @*<a asp-action="Index" asp-controller="Clientes" class="collapse-item">
+                    <i class="fas fa-store fa-sm mr-2 text-gray-400"></i>
+                    <span class="text-gray-800">Clientes</span>
+                </a>*@
+                <a asp-action="Index" asp-controller="Produtos" class="collapse-item">
+                    <i class="fas fa-box fa-sm mr-2 text-gray-400"></i>
+                    <span class="text-gray-800">Produtos</span>
+                </a>
+                <div class="collapse-divider"></div>
+                <a asp-action="Index" asp-controller="Categorias" class="collapse-item">
+                    <i class="fas fa-boxes fa-sm mr-2 text-gray-400"></i>
+                    <span class="text-gray-800">Categorias</span>
+                </a>
+            </div>
+        </div>
+    </li>
+    @if (@perfil == PerfilValue.Administrador.ToString())
+    {
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menu-controle"
+               aria-expanded="true" aria-controls="menu-controle">
+                <i class="fas fa-home"></i>
+                <span class="font-weight-bold text-uppercase">Controle</span>
+            </a>
+            <div id="menu-controle" class="collapse" aria-labelledby="controle" data-parent="#menu">
+                <div class="bg-white collapse-inner rounded">
+                    <h6 class="collapse-header">Controles</h6>
+                    <a asp-action="Index" asp-controller="Aparencia" class="collapse-item">
+                        <i class="fas fa-palette mr-2 text-gray-400"></i>
+                        <span class="text-gray-800">Aparência</span>
+                    </a>
+                    <a asp-action="Index" asp-controller="Dominios" class="collapse-item">
+                        <i class="fas fa-cogs fa-sm mr-2 text-gray-400"></i>
+                        <span class="text-gray-800">Dominios</span>
+                    </a>
+                    <a asp-action="Index" asp-controller="Usuarios" class="collapse-item">
+                        <i class="fas fa-users-cog fa-sm mr-2 text-gray-400"></i>
+                        <span class="text-gray-800">Usuários</span>
+                    </a>
+                </div>
+            </div>
+        </li>
+    }
+    <!-- divider -->
+    <hr class="sidebar-divider d-none d-md-block">
+    <!-- toggler -->
+    <div class="text-center d-none d-md-inline">
+        <button id="sidebarToggle" class="rounded-circle border-0"></button>
+    </div>
+</ul>
+

@@ -1,0 +1,45 @@
+﻿@model DominioEntity
+
+<div id="detalhes-sobrenos" class="container">
+    @if (string.IsNullOrWhiteSpace(@Model.Video))
+    {
+        <div class="row row-cols-1 my-5">
+            <div class="col" data-aos="fade-down">
+                <div class="text-center">
+                    <h3 class="h1 mb-3 font-weight-bold">
+                        <strong class="d-block h5 text-uppercase">Sobre-nós</strong>
+                        @Model.Nome
+                    </h3>
+                </div>
+            </div>
+            <div class="col" data-aos="fade-up">
+                <div class="lead text-center">
+                    @Html.Raw(Model.Descricao)
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-2 my-5">
+            <div class="col" data-aos="fade-right">
+                <div class="video-box rounded m-auto bg-dark pattern-texture">
+                    <a href="@Model.Video" class="venobox btn-play" data-vbtype="video" data-autoplay="true"></a>
+                    <iframe src="@Model.Video" title="Vídeo institucional" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col" data-aos="fade-left">
+                <div class="text-left">
+                    <h3 class="h1 my-3 font-weight-bold">
+                        <strong class="d-block h5 text-uppercase">Sobre-nós</strong>
+                        @Model.Nome
+                    </h3>
+                    <div class="lead text-left">
+                        @Html.Raw(Model.Descricao)
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+

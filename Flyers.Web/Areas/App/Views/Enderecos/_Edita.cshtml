@@ -1,0 +1,81 @@
+﻿@model EnderecoEntity
+
+<form id="edita-endereco" class="form-row" asp-action="_Edita" asp-controller="Enderecos" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group col-sm-4 mb-3">
+        <label asp-for="Cep" class="control-label small"></label>
+        <input asp-for="Cep" class="form-control text-right cep" />
+        <span asp-validation-for="Cep" class="text-danger"></span>
+    </div>
+    <div class="form-group col-sm-6 mb-3">
+        <label asp-for="Cidade" class="control-label small"></label>
+        <input asp-for="Cidade" class="form-control" />
+        <span asp-validation-for="Cidade" class="text-danger"></span>
+    </div>
+    <div class="form-group col-sm-2 mb-3">
+        <label asp-for="Uf" class="control-label small text-uppercase"></label>
+        <input asp-for="Uf" class="form-control" />
+        <span asp-validation-for="Uf" class="text-danger"></span>
+    </div>
+    <div class="form-group col-sm-10 mb-3">
+        <label asp-for="Logradouro" class="control-label small"></label>
+        <input asp-for="Logradouro" class="form-control" />
+        <span asp-validation-for="Logradouro" class="text-danger"></span>
+    </div>
+    <div class="form-group col-sm-2 mb-3">
+        <label asp-for="Numero" class="control-label small"></label>
+        <input asp-for="Numero" class="form-control text-right" />
+        <span asp-validation-for="Numero" class="text-danger"></span>
+    </div>
+    <div class="form-group col-sm-6 mb-3">
+        <label asp-for="Complemento" class="control-label small"></label>
+        <input asp-for="Complemento" class="form-control" />
+        <span asp-validation-for="Complemento" class="text-danger"></span>
+    </div>
+    <div class="form-group col-sm-6 mb-3">
+        <label asp-for="Bairro" class="control-label small"></label>
+        <input asp-for="Bairro" class="form-control" />
+        <span asp-validation-for="Bairro" class="text-danger"></span>
+    </div>
+    <div class="col-12 text-center shadow-none p-3 bg-light rounded border">
+        <div class="d-grid gap-2 d-md-block">
+            <a asp-route="Index" class="btn btn-secondary btn-icon-split">
+                <span class="icon text-white-50">
+                    <i class="fas fa-arrow-left"></i>
+                </span>
+                <span class="text d-none d-md-block">Voltar</span>
+            </a>
+            <button data-action="salvar-edita" type="submit" class="btn btn-primary btn-icon-split">
+                <span class="icon text-white-50">
+                    <i class="fas fa-check"></i>
+                </span>
+                <span class="text d-none d-md-block">Salvar</span>
+            </button>
+        </div>
+    </div>
+</form>
+<script>
+    $(function () {
+        const $cep = $("#Cep");
+        $cep.change(function () {
+            webapp.ui.bloqueio.ativa(true);
+            $.get('@Url.Action("Cep", "Enderecos")', { cep: $cep.val() }, function (resposta, status, jqXHR) {
+                if (resposta.logradouro) {
+                    $('#Logradouro').val(resposta.logradouro);
+                };
+                if (resposta.bairro) {
+                    $('#Bairro').val(resposta.bairro);
+                };
+                if (resposta.localidade) {
+                    $('#Cidade').val(resposta.localidade);
+                };
+                if (resposta.uf) {
+                    $('#Uf').val(resposta.uf);
+                };
+            }).then(function () {
+                webapp.ui.bloqueio.ativa(false);
+            });
+        });
+    });
+</script>

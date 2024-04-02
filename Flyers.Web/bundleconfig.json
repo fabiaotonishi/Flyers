@@ -1,0 +1,52 @@
+[
+  {
+    "outputFileName": "wwwroot/lib/jquery-easyzoom/css/easyzoom.min.css",
+    "inputFiles": [
+      "wwwroot/lib/jquery-easyzoom/css/easyzoom.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/customs/jquery.validate.custom.min.js",
+    "inputFiles": [
+      "wwwroot/js/customs/jquery.validate.custom.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/webapp.modules.js",
+    "inputFiles": [
+      "wwwroot/js/modules/webapp.js",
+      "wwwroot/js/modules/webapp-formulario.js",
+      "wwwroot/js/modules/webapp-ui.alvenaria.js",
+      "wwwroot/js/modules/webapp-ui.bloqueio.js",
+      "wwwroot/js/modules/webapp-ui.carrossel.js",
+      "wwwroot/js/modules/webapp-ui.mascaras.js",
+      "wwwroot/js/modules/webapp-ui.mensagem.js",
+      "wwwroot/js/modules/webapp-ui.tabelabt.js",
+      "wwwroot/js/modules/webapp-utilidades.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/web.min.js",
+    "inputFiles": [
+      "wwwroot/js/web.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/app.min.js",
+    "inputFiles": [
+      "wwwroot/js/app.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/app.min.css",
+    "inputFiles": [
+      "wwwroot/css/app.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/web.min.css",
+    "inputFiles": [
+      "wwwroot/css/web.css"
+    ]
+  }
+]

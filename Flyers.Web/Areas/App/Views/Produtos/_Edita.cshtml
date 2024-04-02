@@ -1,0 +1,61 @@
+﻿@model ProdutoEntity
+
+<form id="edita-produto" class="form-row" asp-action="_Edita" asp-controller="Produtos" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="IdDominio" />
+    <div class="form-group col-sm-12 mb-3">
+        <label asp-for="Nome" class="control-label small"></label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+    <div class="form-group col-sm-12 mb-3">
+        <label asp-for="Descricao" class="control-label small"></label>
+        <textarea asp-for="Descricao" class="form-control summernote"></textarea>
+        <span asp-validation-for="Descricao" class="text-danger"></span>
+    </div>
+        <div class="form-group col-sm-6 mb-3">
+        <label asp-for="IdCategoria" class="control-label small"></label>
+        <select asp-for="IdCategoria" class="form-control" asp-items="ViewBag.Categorias">
+            <option value="0">Selecione a categoria</option>
+        </select>
+        <span asp-validation-for="IdCategoria" class="text-danger"></span>
+    </div>
+    <div class="form-group col-sm-3 ml-sm-auto mb-3">
+        <label asp-for="Preco" class="control-label small"></label>
+        <input asp-for="Preco" class="form-control text-right valor" />
+        <span asp-validation-for="Preco" class="text-danger"></span>
+    </div>
+    <div class="form-group col-sm-6 mb-3">
+        <div class="form-check">
+            <input class="form-check-input" asp-for="Destaque" />
+            <label class="form-check-label">
+                @Html.DisplayNameFor(model => model.Destaque)
+            </label>
+        </div>
+    </div>
+    <div class="form-group col-sm-6 mb-3 text-right">
+        <div class="form-check">
+            <input class="form-check-input" asp-for="Inativo" />
+            <label class="form-check-label">
+                @Html.DisplayNameFor(model => model.Inativo)
+            </label>
+        </div>
+    </div>
+    <div class="col-12 text-center shadow-none p-3 bg-light rounded border">
+        <div class="d-grid gap-2 d-md-block">
+            <a asp-action="Index" class="btn btn-secondary btn-icon-split">
+                <span class="icon text-white-50">
+                    <i class="fas fa-arrow-left"></i>
+                </span>
+                <span class="text d-none d-md-block">Voltar</span>
+            </a>
+            <button data-action="salvar-edita" type="submit" class="btn btn-primary btn-icon-split">
+                <span class="icon text-white-50">
+                    <i class="fas fa-check"></i>
+                </span>
+                <span class="text d-none d-md-block">Salvar</span>
+            </button>
+        </div>
+    </div>
+</form>

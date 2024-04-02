@@ -1,0 +1,47 @@
+﻿@model RedeSocialEntity
+
+<div id="obtem-redesocial" class="row">
+    <div class="col-auto col-md-3">
+        <div class="nav flex-column nav-pills my-3" role="tablist" aria-orientation="vertical">
+            @foreach (var canal in EnumeracaoHelper.ListaEnumeracao<CanalValue>())
+            {
+                @if (canal.Id == CanalValue.Facebook.GetHashCode())
+                {
+                    <a data-action="trocar-edita-redesocial" asp-action="Edita" asp-controller="RedesSociais" asp-route-dominio="@Model.IdDominio" asp-route-canal="@canal.Id" class="nav-link text-center text-md-left active" data-toggle="pill" role="tab" aria-controls="tab-obtem-redesocial">
+                        <i class="fa-fw fab fa-facebook"></i>
+                        <span class="text-xs d-none d-md-inline text-uppercase font-weight-bold">@canal.Descricao</span>
+                    </a>
+                }
+                else if (canal.Id == CanalValue.Instagram.GetHashCode())
+                {
+                    <a data-action="trocar-edita-redesocial" asp-action="Edita" asp-controller="RedesSociais" asp-route-dominio="@Model.IdDominio" asp-route-canal="@canal.Id" class="nav-link text-center text-md-left" data-toggle="pill" role="tab" aria-controls="tab-obtem-redesocial">
+                        <i class="fa-fw fab fa-instagram"></i>
+                        <span class="text-xs d-none d-md-inline text-uppercase font-weight-bold">@canal.Descricao</span>
+                    </a>
+                }
+                else if (canal.Id == CanalValue.Youtube.GetHashCode())
+                {
+                    <a data-action="trocar-edita-redesocial" asp-action="Edita" asp-controller="RedesSociais" asp-route-dominio="@Model.IdDominio" asp-route-canal="@canal.Id" class="nav-link text-center text-md-left" data-toggle="pill" role="tab" aria-controls="tab-obtem-redesocial">
+                        <i class="fa-fw fab fa-youtube"></i>
+                        <span class="text-xs d-none d-md-inline text-uppercase font-weight-bold">@canal.Descricao</span>
+                    </a>
+                }
+                else if (canal.Id == CanalValue.Twitter.GetHashCode())
+                {
+                    <a data-action="trocar-edita-redesocial" asp-action="Edita" asp-controller="RedesSociais" asp-route-dominio="@Model.IdDominio" asp-route-canal="@canal.Id" class="nav-link text-center text-md-left" data-toggle="pill" role="tab" aria-controls="tab-obtem-redesocial">
+                        <i class="fa-fw fab fa-twitter"></i>
+                        <span class="text-xs d-none d-md-inline text-uppercase font-weight-bold">@canal.Descricao</span>
+                    </a>
+                }
+            }
+        </div>
+    </div>
+    <div class="col col-md-9">
+        <div id="tab-obtem-redesocial" class="tab-content">
+            <div class="tab-pane fade show active" role="tabpanel">
+                @await Html.PartialAsync("_Edita.cshtml", Model)
+            </div>
+        </div>
+    </div>
+</div>
+

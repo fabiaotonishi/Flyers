@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- metatags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    @Html.Raw(ViewData["Metas"])
+    <title>@ViewData["Title"]</title>
+    <!-- favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="~/lib/normalize/normalize.min.css" />
+    <link rel="stylesheet" href="~/lib/animate/animate.min.css" />
+    <link rel="stylesheet" href="~/lib/aos/aos.css" />
+    <link rel="stylesheet" href="~/lib/jquery-toast/jquery.toast.min.css" />
+    <link rel="stylesheet" href="~/lib/jquery-owl/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/lib/jquery-owl/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="~/lib/jquery-venobox/venobox.min.css" />
+    <link rel="stylesheet" href="~/lib/jquery-easyzoom/css/easyzoom.min.css" />
+    <link rel="stylesheet" href="~/css/web.min.css" />
+    @RenderSection("Styles", required: false)
+</head>
+<body id="pagina">
+    @{
+        var dominio = HttpContextAccessor.HttpContext.Session.GetObject<DominioEntity>("Dominio");
+    }
+    <!-- website -->
+    <header class="header">
+        <!-- navbar-->
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <div class="container">
+                <div class="navbar-brand">
+                    @await Component.InvokeAsync("Logo", new { idDominio = dominio.Id })
+                </div>
+                <button type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                @await Component.InvokeAsync("Menu")
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        @RenderBody()
+    </main>
+    <footer class="footer text-muted text-center">
+        @await Component.InvokeAsync("Social", new { idDominio = dominio.Id })
+        <small class="p-2">
+            &copy; @DateTime.Now.Year - @dominio.Nome - <a class="text-xs" href="https://www.mowbi.com.br" target="_blank">Desenvolvido por MoWBI T.I.C</a>
+        </small>
+    </footer>
+    <!-- bsmodal -->
+    <div id="dialogo-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title mb-0 font-weight-bold"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body border-0"></div>
+                <div class="modal-footer justify-content-center align-content-center border-0">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button data-action="confirmar" type="button" class="btn btn-primary">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blockui -->
+    <div id="carregando" style="display:none;">
+        <div class="d-flex justify-content-center" style="display:none;">
+            <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Carregando...</span>
+            </div>
+        </div>
+    </div>
+    <!-- easing -->
+    <a class="scroll-to-top rounded" href="#pagina">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    @if (!string.IsNullOrWhiteSpace(dominio.Whatsapp))
+    {
+        <!-- whatsapp -->
+        @await Component.InvokeAsync("WhatsApp", new { celular = dominio.Whatsapp, titular = dominio.Nome })
+    }
+    <!-- js -->
+    <script src="~/lib/modernizr/modernizr.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/lib/jquery-easing/jquery.easing.min.js"></script>
+    <script src="~/lib/jquery-owl/owl.carousel.min.js"></script>
+    <script src="~/lib/jquery-blockui/jquery.blockUI.min.js"></script>
+    <script src="~/lib/jquery-mask/jquery.mask.min.js"></script>
+    <script src="~/lib/jquery-toast/jquery.toast.min.js"></script>
+    <script src="~/lib/jquery-venobox/venobox.min.js"></script>
+    <script src="~/lib/jquery-easyzoom/dist/easyzoom.js"></script>
+    <script src="~/lib/masonry/masonry.pkgd.min.js"></script>
+    <script src="~/lib/aos/aos.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/webapp.modules.min.js"></script>
+    <script src="~/js/web.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

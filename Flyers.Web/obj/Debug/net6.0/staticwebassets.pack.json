@@ -1,0 +1,2041 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\assets\\brand.png",
+      "PackagePath": "staticwebassets\\assets\\brand.png"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\assets\\flyers.png",
+      "PackagePath": "staticwebassets\\assets\\flyers.png"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\css\\app.min.css",
+      "PackagePath": "staticwebassets\\css\\app.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\css\\themes\\admin.css",
+      "PackagePath": "staticwebassets\\css\\themes\\admin.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\css\\themes\\admin.min.css",
+      "PackagePath": "staticwebassets\\css\\themes\\admin.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\css\\themes\\site.css",
+      "PackagePath": "staticwebassets\\css\\themes\\site.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\css\\themes\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\themes\\site.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\css\\web.css",
+      "PackagePath": "staticwebassets\\css\\web.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\css\\web.min.css",
+      "PackagePath": "staticwebassets\\css\\web.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\img\\bg01.jpg",
+      "PackagePath": "staticwebassets\\img\\bg01.jpg"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\img\\bg02.jpg",
+      "PackagePath": "staticwebassets\\img\\bg02.jpg"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\img\\bg03.jpg",
+      "PackagePath": "staticwebassets\\img\\bg03.jpg"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\img\\bg04.jpg",
+      "PackagePath": "staticwebassets\\img\\bg04.jpg"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\img\\image.svg",
+      "PackagePath": "staticwebassets\\img\\image.svg"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\img\\layer.png",
+      "PackagePath": "staticwebassets\\img\\layer.png"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\app.min.js",
+      "PackagePath": "staticwebassets\\js\\app.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\customs\\jquery.validate.custom.js",
+      "PackagePath": "staticwebassets\\js\\customs\\jquery.validate.custom.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\customs\\jquery.validate.custom.min.js",
+      "PackagePath": "staticwebassets\\js\\customs\\jquery.validate.custom.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\modules\\webapp-formulario.js",
+      "PackagePath": "staticwebassets\\js\\modules\\webapp-formulario.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\modules\\webapp-ui.alvenaria.js",
+      "PackagePath": "staticwebassets\\js\\modules\\webapp-ui.alvenaria.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\modules\\webapp-ui.bloqueio.js",
+      "PackagePath": "staticwebassets\\js\\modules\\webapp-ui.bloqueio.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\modules\\webapp-ui.carrossel.js",
+      "PackagePath": "staticwebassets\\js\\modules\\webapp-ui.carrossel.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\modules\\webapp-ui.mascaras.js",
+      "PackagePath": "staticwebassets\\js\\modules\\webapp-ui.mascaras.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\modules\\webapp-ui.mensagem.js",
+      "PackagePath": "staticwebassets\\js\\modules\\webapp-ui.mensagem.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\modules\\webapp-ui.tabelabt.js",
+      "PackagePath": "staticwebassets\\js\\modules\\webapp-ui.tabelabt.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\modules\\webapp-utilidades.js",
+      "PackagePath": "staticwebassets\\js\\modules\\webapp-utilidades.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\modules\\webapp.js",
+      "PackagePath": "staticwebassets\\js\\modules\\webapp.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\web.js",
+      "PackagePath": "staticwebassets\\js\\web.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\web.min.js",
+      "PackagePath": "staticwebassets\\js\\web.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\webapp.modules.js",
+      "PackagePath": "staticwebassets\\js\\webapp.modules.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\js\\webapp.modules.min.js",
+      "PackagePath": "staticwebassets\\js\\webapp.modules.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\animate\\animate.compat.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.compat.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\animate\\animate.compat.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.compat.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\animate\\animate.compat.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.compat.min.css.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\lib\\aos\\aos.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\lib\\aos\\aos.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\bootstrap-table-locale-all.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table-locale-all.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\bootstrap-table-locale-all.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table-locale-all.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\bootstrap-table-vue.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table-vue.esm.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\bootstrap-table-vue.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table-vue.esm.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\bootstrap-table-vue.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table-vue.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\bootstrap-table-vue.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table-vue.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\bootstrap-table.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\bootstrap-table.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\bootstrap-table.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\bootstrap-table.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\addrbar\\bootstrap-table-addrbar.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\addrbar\\bootstrap-table-addrbar.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\addrbar\\bootstrap-table-addrbar.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\addrbar\\bootstrap-table-addrbar.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\auto-refresh\\bootstrap-table-auto-refresh.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\auto-refresh\\bootstrap-table-auto-refresh.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\auto-refresh\\bootstrap-table-auto-refresh.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\auto-refresh\\bootstrap-table-auto-refresh.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\cookie\\bootstrap-table-cookie.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\cookie\\bootstrap-table-cookie.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\cookie\\bootstrap-table-cookie.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\cookie\\bootstrap-table-cookie.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\copy-rows\\bootstrap-table-copy-rows.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\copy-rows\\bootstrap-table-copy-rows.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\copy-rows\\bootstrap-table-copy-rows.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\copy-rows\\bootstrap-table-copy-rows.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\custom-view\\bootstrap-table-custom-view.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\custom-view\\bootstrap-table-custom-view.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\custom-view\\bootstrap-table-custom-view.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\custom-view\\bootstrap-table-custom-view.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\defer-url\\bootstrap-table-defer-url.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\defer-url\\bootstrap-table-defer-url.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\defer-url\\bootstrap-table-defer-url.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\defer-url\\bootstrap-table-defer-url.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\editable\\bootstrap-table-editable.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\editable\\bootstrap-table-editable.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\editable\\bootstrap-table-editable.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\editable\\bootstrap-table-editable.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\export\\bootstrap-table-export.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\export\\bootstrap-table-export.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\export\\bootstrap-table-export.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\export\\bootstrap-table-export.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\filter-control\\bootstrap-table-filter-control.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\filter-control\\bootstrap-table-filter-control.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\filter-control\\bootstrap-table-filter-control.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\filter-control\\bootstrap-table-filter-control.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\filter-control\\bootstrap-table-filter-control.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\filter-control\\bootstrap-table-filter-control.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\filter-control\\bootstrap-table-filter-control.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\filter-control\\bootstrap-table-filter-control.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\filter-control\\utils.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\filter-control\\utils.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\filter-control\\utils.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\filter-control\\utils.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\fixed-columns\\bootstrap-table-fixed-columns.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\fixed-columns\\bootstrap-table-fixed-columns.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\fixed-columns\\bootstrap-table-fixed-columns.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\fixed-columns\\bootstrap-table-fixed-columns.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\fixed-columns\\bootstrap-table-fixed-columns.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\fixed-columns\\bootstrap-table-fixed-columns.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\fixed-columns\\bootstrap-table-fixed-columns.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\fixed-columns\\bootstrap-table-fixed-columns.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\group-by-v2\\bootstrap-table-group-by.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\group-by-v2\\bootstrap-table-group-by.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\group-by-v2\\bootstrap-table-group-by.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\group-by-v2\\bootstrap-table-group-by.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\group-by-v2\\bootstrap-table-group-by.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\group-by-v2\\bootstrap-table-group-by.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\group-by-v2\\bootstrap-table-group-by.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\group-by-v2\\bootstrap-table-group-by.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\i18n-enhance\\bootstrap-table-i18n-enhance.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\i18n-enhance\\bootstrap-table-i18n-enhance.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\i18n-enhance\\bootstrap-table-i18n-enhance.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\i18n-enhance\\bootstrap-table-i18n-enhance.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\key-events\\bootstrap-table-key-events.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\key-events\\bootstrap-table-key-events.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\key-events\\bootstrap-table-key-events.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\key-events\\bootstrap-table-key-events.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\mobile\\bootstrap-table-mobile.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\mobile\\bootstrap-table-mobile.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\mobile\\bootstrap-table-mobile.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\mobile\\bootstrap-table-mobile.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\multiple-sort\\bootstrap-table-multiple-sort.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\multiple-sort\\bootstrap-table-multiple-sort.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\multiple-sort\\bootstrap-table-multiple-sort.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\multiple-sort\\bootstrap-table-multiple-sort.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\page-jump-to\\bootstrap-table-page-jump-to.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\page-jump-to\\bootstrap-table-page-jump-to.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\page-jump-to\\bootstrap-table-page-jump-to.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\page-jump-to\\bootstrap-table-page-jump-to.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\page-jump-to\\bootstrap-table-page-jump-to.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\page-jump-to\\bootstrap-table-page-jump-to.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\page-jump-to\\bootstrap-table-page-jump-to.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\page-jump-to\\bootstrap-table-page-jump-to.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\pipeline\\bootstrap-table-pipeline.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\pipeline\\bootstrap-table-pipeline.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\pipeline\\bootstrap-table-pipeline.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\pipeline\\bootstrap-table-pipeline.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\print\\bootstrap-table-print.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\print\\bootstrap-table-print.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\print\\bootstrap-table-print.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\print\\bootstrap-table-print.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\reorder-columns\\bootstrap-table-reorder-columns.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\reorder-columns\\bootstrap-table-reorder-columns.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\reorder-columns\\bootstrap-table-reorder-columns.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\reorder-columns\\bootstrap-table-reorder-columns.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\reorder-rows\\bootstrap-table-reorder-rows.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\reorder-rows\\bootstrap-table-reorder-rows.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\reorder-rows\\bootstrap-table-reorder-rows.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\reorder-rows\\bootstrap-table-reorder-rows.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\reorder-rows\\bootstrap-table-reorder-rows.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\reorder-rows\\bootstrap-table-reorder-rows.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\reorder-rows\\bootstrap-table-reorder-rows.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\reorder-rows\\bootstrap-table-reorder-rows.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\resizable\\bootstrap-table-resizable.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\resizable\\bootstrap-table-resizable.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\resizable\\bootstrap-table-resizable.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\resizable\\bootstrap-table-resizable.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\sticky-header\\bootstrap-table-sticky-header.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\sticky-header\\bootstrap-table-sticky-header.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\sticky-header\\bootstrap-table-sticky-header.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\sticky-header\\bootstrap-table-sticky-header.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\sticky-header\\bootstrap-table-sticky-header.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\sticky-header\\bootstrap-table-sticky-header.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\sticky-header\\bootstrap-table-sticky-header.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\sticky-header\\bootstrap-table-sticky-header.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\toolbar\\bootstrap-table-toolbar.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\toolbar\\bootstrap-table-toolbar.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\toolbar\\bootstrap-table-toolbar.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\toolbar\\bootstrap-table-toolbar.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\treegrid\\bootstrap-table-treegrid.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\treegrid\\bootstrap-table-treegrid.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\extensions\\treegrid\\bootstrap-table-treegrid.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\extensions\\treegrid\\bootstrap-table-treegrid.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-af-ZA.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-af-ZA.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-af-ZA.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-af-ZA.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ar-SA.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ar-SA.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ar-SA.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ar-SA.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-bg-BG.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-bg-BG.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-bg-BG.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-bg-BG.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ca-ES.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ca-ES.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ca-ES.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ca-ES.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-cs-CZ.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-cs-CZ.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-cs-CZ.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-cs-CZ.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-da-DK.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-da-DK.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-da-DK.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-da-DK.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-de-DE.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-de-DE.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-de-DE.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-de-DE.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-el-GR.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-el-GR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-el-GR.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-el-GR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-en-US.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-en-US.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-en-US.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-en-US.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-AR.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-AR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-AR.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-AR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-CL.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-CL.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-CL.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-CL.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-CR.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-CR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-CR.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-CR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-ES.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-ES.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-ES.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-ES.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-MX.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-MX.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-MX.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-MX.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-NI.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-NI.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-NI.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-NI.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-SP.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-SP.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-es-SP.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-es-SP.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-et-EE.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-et-EE.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-et-EE.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-et-EE.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-eu-EU.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-eu-EU.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-eu-EU.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-eu-EU.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-fa-IR.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-fa-IR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-fa-IR.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-fa-IR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-fi-FI.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-fi-FI.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-fi-FI.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-fi-FI.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-BE.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-BE.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-BE.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-BE.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-CH.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-CH.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-CH.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-CH.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-FR.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-FR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-FR.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-FR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-LU.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-LU.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-LU.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-fr-LU.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-he-IL.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-he-IL.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-he-IL.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-he-IL.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-hr-HR.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-hr-HR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-hr-HR.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-hr-HR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-hu-HU.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-hu-HU.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-hu-HU.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-hu-HU.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-id-ID.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-id-ID.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-id-ID.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-id-ID.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-it-IT.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-it-IT.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-it-IT.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-it-IT.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ja-JP.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ja-JP.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ja-JP.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ja-JP.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ka-GE.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ka-GE.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ka-GE.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ka-GE.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ko-KR.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ko-KR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ko-KR.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ko-KR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ms-MY.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ms-MY.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ms-MY.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ms-MY.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-nb-NO.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-nb-NO.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-nb-NO.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-nb-NO.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-nl-BE.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-nl-BE.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-nl-BE.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-nl-BE.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-nl-NL.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-nl-NL.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-nl-NL.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-nl-NL.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-pl-PL.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-pl-PL.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-pl-PL.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-pl-PL.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-pt-BR.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-pt-BR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-pt-BR.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-pt-BR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-pt-PT.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-pt-PT.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-pt-PT.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-pt-PT.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ro-RO.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ro-RO.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ro-RO.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ro-RO.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ru-RU.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ru-RU.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ru-RU.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ru-RU.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-sk-SK.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-sk-SK.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-sk-SK.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-sk-SK.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-sr-Cyrl-RS.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-sr-Cyrl-RS.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-sr-Cyrl-RS.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-sr-Cyrl-RS.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-sr-Latn-RS.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-sr-Latn-RS.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-sr-Latn-RS.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-sr-Latn-RS.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-sv-SE.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-sv-SE.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-sv-SE.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-sv-SE.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-th-TH.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-th-TH.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-th-TH.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-th-TH.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-tr-TR.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-tr-TR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-tr-TR.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-tr-TR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-uk-UA.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-uk-UA.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-uk-UA.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-uk-UA.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ur-PK.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ur-PK.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-ur-PK.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-ur-PK.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-uz-Latn-UZ.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-uz-Latn-UZ.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-uz-Latn-UZ.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-uz-Latn-UZ.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-vi-VN.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-vi-VN.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-vi-VN.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-vi-VN.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-zh-CN.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-zh-CN.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-zh-CN.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-zh-CN.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-zh-TW.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-zh-TW.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\locale\\bootstrap-table-zh-TW.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\locale\\bootstrap-table-zh-TW.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\bootstrap-table\\bootstrap-table.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\bootstrap-table\\bootstrap-table.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\bootstrap-table\\bootstrap-table.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\bootstrap-table\\bootstrap-table.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\bootstrap-table\\bootstrap-table.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\bootstrap-table\\bootstrap-table.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\bootstrap-table\\bootstrap-table.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\bootstrap-table\\bootstrap-table.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\bootstrap-table\\fonts\\bootstrap-table.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\bootstrap-table\\fonts\\bootstrap-table.eot"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\bootstrap-table\\fonts\\bootstrap-table.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\bootstrap-table\\fonts\\bootstrap-table.svg"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\bootstrap-table\\fonts\\bootstrap-table.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\bootstrap-table\\fonts\\bootstrap-table.ttf"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\bootstrap-table\\fonts\\bootstrap-table.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\bootstrap-table\\fonts\\bootstrap-table.woff"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\bulma\\bootstrap-table-bulma.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\bulma\\bootstrap-table-bulma.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\bulma\\bootstrap-table-bulma.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\bulma\\bootstrap-table-bulma.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\bulma\\bootstrap-table-bulma.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\bulma\\bootstrap-table-bulma.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\bulma\\bootstrap-table-bulma.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\bulma\\bootstrap-table-bulma.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\foundation\\bootstrap-table-foundation.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\foundation\\bootstrap-table-foundation.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\foundation\\bootstrap-table-foundation.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\foundation\\bootstrap-table-foundation.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\foundation\\bootstrap-table-foundation.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\foundation\\bootstrap-table-foundation.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\foundation\\bootstrap-table-foundation.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\foundation\\bootstrap-table-foundation.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\materialize\\bootstrap-table-materialize.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\materialize\\bootstrap-table-materialize.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\materialize\\bootstrap-table-materialize.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\materialize\\bootstrap-table-materialize.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\materialize\\bootstrap-table-materialize.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\materialize\\bootstrap-table-materialize.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\materialize\\bootstrap-table-materialize.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\materialize\\bootstrap-table-materialize.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\semantic\\bootstrap-table-semantic.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\semantic\\bootstrap-table-semantic.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\semantic\\bootstrap-table-semantic.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\semantic\\bootstrap-table-semantic.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\semantic\\bootstrap-table-semantic.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\semantic\\bootstrap-table-semantic.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap-table\\themes\\semantic\\bootstrap-table-semantic.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\themes\\semantic\\bootstrap-table-semantic.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\croppie\\croppie.css",
+      "PackagePath": "staticwebassets\\lib\\croppie\\croppie.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\croppie\\croppie.js",
+      "PackagePath": "staticwebassets\\lib\\croppie\\croppie.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\croppie\\croppie.min.css",
+      "PackagePath": "staticwebassets\\lib\\croppie\\croppie.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\croppie\\croppie.min.js",
+      "PackagePath": "staticwebassets\\lib\\croppie\\croppie.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-blockui\\jquery.blockUI.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-blockui\\jquery.blockUI.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-blockui\\jquery.blockUI.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-blockui\\jquery.blockUI.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.compatibility.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.compatibility.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.compatibility.min.js.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easing\\jquery.easing.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easing\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easyzoom\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\jquery-easyzoom"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easyzoom\\README.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-easyzoom\\README.md"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easyzoom\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-easyzoom\\bower.json"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easyzoom\\css\\easyzoom.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-easyzoom\\css\\easyzoom.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easyzoom\\css\\easyzoom.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-easyzoom\\css\\easyzoom.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easyzoom\\css\\example.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-easyzoom\\css\\example.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easyzoom\\css\\pygments.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-easyzoom\\css\\pygments.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easyzoom\\dist\\easyzoom.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easyzoom\\dist\\easyzoom.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easyzoom\\package.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-easyzoom\\package.json"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-easyzoom\\src\\easyzoom.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easyzoom\\src\\easyzoom.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-mask\\jquery.mask.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-mask\\jquery.mask.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-mask\\jquery.mask.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-mask\\jquery.mask.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-owl\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\jquery-owl\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-owl\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-owl\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-owl\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-owl\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-owl\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-owl\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-owl\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-owl\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-owl\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-owl\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-owl\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-owl\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-owl\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-owl\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-owl\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-owl\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-owl\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-owl\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-toast\\jquery.toast.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast\\jquery.toast.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-toast\\jquery.toast.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast\\jquery.toast.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-toast\\jquery.toast.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast\\jquery.toast.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-toast\\jquery.toast.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast\\jquery.toast.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-venobox\\venobox.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-venobox\\venobox.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-venobox\\venobox.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-venobox\\venobox.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-venobox\\venobox.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-venobox\\venobox.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery-venobox\\venobox.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-venobox\\venobox.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\masonry\\masonry.pkgd.js",
+      "PackagePath": "staticwebassets\\lib\\masonry\\masonry.pkgd.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\masonry\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\lib\\masonry\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\modernizr\\modernizr.js",
+      "PackagePath": "staticwebassets\\lib\\modernizr\\modernizr.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\modernizr\\modernizr.min.js",
+      "PackagePath": "staticwebassets\\lib\\modernizr\\modernizr.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\normalize\\normalize.css",
+      "PackagePath": "staticwebassets\\lib\\normalize\\normalize.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\normalize\\normalize.min.css",
+      "PackagePath": "staticwebassets\\lib\\normalize\\normalize.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\normalize\\normalize.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\normalize\\normalize.min.css.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\overlayscrollbars\\css\\OverlayScrollbars.css",
+      "PackagePath": "staticwebassets\\lib\\overlayscrollbars\\css\\OverlayScrollbars.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\overlayscrollbars\\css\\OverlayScrollbars.min.css",
+      "PackagePath": "staticwebassets\\lib\\overlayscrollbars\\css\\OverlayScrollbars.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\overlayscrollbars\\js\\OverlayScrollbars.js",
+      "PackagePath": "staticwebassets\\lib\\overlayscrollbars\\js\\OverlayScrollbars.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\overlayscrollbars\\js\\OverlayScrollbars.min.js",
+      "PackagePath": "staticwebassets\\lib\\overlayscrollbars\\js\\OverlayScrollbars.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\overlayscrollbars\\js\\jquery.overlayScrollbars.js",
+      "PackagePath": "staticwebassets\\lib\\overlayscrollbars\\js\\jquery.overlayScrollbars.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\overlayscrollbars\\js\\jquery.overlayScrollbars.min.js",
+      "PackagePath": "staticwebassets\\lib\\overlayscrollbars\\js\\jquery.overlayScrollbars.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\font\\summernote.eot",
+      "PackagePath": "staticwebassets\\lib\\summernote\\font\\summernote.eot"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\font\\summernote.ttf",
+      "PackagePath": "staticwebassets\\lib\\summernote\\font\\summernote.ttf"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\font\\summernote.woff",
+      "PackagePath": "staticwebassets\\lib\\summernote\\font\\summernote.woff"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\font\\summernote.woff2",
+      "PackagePath": "staticwebassets\\lib\\summernote\\font\\summernote.woff2"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ar-AR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ar-AR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ar-AR.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ar-AR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-az-AZ.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-az-AZ.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-az-AZ.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-az-AZ.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-bg-BG.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-bg-BG.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-bg-BG.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-bg-BG.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ca-ES.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ca-ES.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ca-ES.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ca-ES.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-cs-CZ.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-cs-CZ.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-cs-CZ.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-cs-CZ.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-da-DK.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-da-DK.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-da-DK.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-da-DK.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-de-DE.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-de-DE.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-de-DE.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-de-DE.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-el-GR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-el-GR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-el-GR.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-el-GR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-es-ES.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-es-ES.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-es-ES.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-es-ES.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-es-EU.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-es-EU.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-es-EU.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-es-EU.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-fa-IR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-fa-IR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-fa-IR.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-fa-IR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-fi-FI.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-fi-FI.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-fi-FI.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-fi-FI.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-fr-FR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-fr-FR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-fr-FR.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-fr-FR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-gl-ES.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-gl-ES.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-gl-ES.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-gl-ES.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-he-IL.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-he-IL.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-he-IL.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-he-IL.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-hr-HR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-hr-HR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-hr-HR.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-hr-HR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-hu-HU.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-hu-HU.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-hu-HU.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-hu-HU.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-id-ID.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-id-ID.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-id-ID.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-id-ID.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-it-IT.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-it-IT.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-it-IT.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-it-IT.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ja-JP.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ja-JP.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ja-JP.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ja-JP.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ko-KR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ko-KR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ko-KR.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ko-KR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-lt-LT.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-lt-LT.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-lt-LT.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-lt-LT.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-lt-LV.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-lt-LV.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-lt-LV.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-lt-LV.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-mn-MN.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-mn-MN.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-mn-MN.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-mn-MN.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-nb-NO.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-nb-NO.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-nb-NO.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-nb-NO.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-nl-NL.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-nl-NL.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-nl-NL.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-nl-NL.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-pl-PL.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-pl-PL.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-pl-PL.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-pl-PL.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-pt-BR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-pt-BR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-pt-BR.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-pt-BR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-pt-PT.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-pt-PT.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-pt-PT.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-pt-PT.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ro-RO.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ro-RO.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ro-RO.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ro-RO.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ru-RU.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ru-RU.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ru-RU.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ru-RU.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-sk-SK.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sk-SK.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-sk-SK.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sk-SK.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-sl-SI.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sl-SI.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-sl-SI.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sl-SI.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-sr-RS-Latin.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sr-RS-Latin.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-sr-RS-Latin.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sr-RS-Latin.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-sr-RS.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sr-RS.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-sr-RS.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sr-RS.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-sv-SE.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sv-SE.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-sv-SE.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-sv-SE.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ta-IN.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ta-IN.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-ta-IN.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-ta-IN.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-th-TH.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-th-TH.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-th-TH.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-th-TH.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-tr-TR.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-tr-TR.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-tr-TR.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-tr-TR.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-uk-UA.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-uk-UA.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-uk-UA.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-uk-UA.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-uz-UZ.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-uz-UZ.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-uz-UZ.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-uz-UZ.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-vi-VN.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-vi-VN.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-vi-VN.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-vi-VN.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-zh-CN.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-zh-CN.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-zh-CN.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-zh-CN.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-zh-TW.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-zh-TW.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\lang\\summernote-zh-TW.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\lang\\summernote-zh-TW.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.css",
+      "PackagePath": "staticwebassets\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.min.css",
+      "PackagePath": "staticwebassets\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\plugin\\hello\\summernote-ext-hello.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\plugin\\hello\\summernote-ext-hello.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\plugin\\hello\\summernote-ext-hello.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\plugin\\hello\\summernote-ext-hello.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\plugin\\specialchars\\summernote-ext-specialchars.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\plugin\\specialchars\\summernote-ext-specialchars.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\plugin\\specialchars\\summernote-ext-specialchars.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\plugin\\specialchars\\summernote-ext-specialchars.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote-bs4.css",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-bs4.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote-bs4.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-bs4.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote-bs4.js.map",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-bs4.js.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote-bs4.min.css",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-bs4.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote-bs4.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-bs4.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote-bs4.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-bs4.min.js.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote-lite.css",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-lite.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote-lite.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-lite.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote-lite.js.map",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-lite.js.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote-lite.min.css",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-lite.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote-lite.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-lite.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote-lite.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote-lite.min.js.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote.css",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote.js.map",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote.js.map"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote.min.css",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote.min.css"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote.min.js",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote.min.js"
+    },
+    {
+      "Id": "D:\\Arquivos projetos\\Empresa\\Flyers\\Flyers.Web\\wwwroot\\lib\\summernote\\summernote.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\summernote\\summernote.min.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Flyers.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Flyers.Web.props",
+      "PackagePath": "build\\Flyers.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Flyers.Web.props",
+      "PackagePath": "buildMultiTargeting\\Flyers.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Flyers.Web.props",
+      "PackagePath": "buildTransitive\\Flyers.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

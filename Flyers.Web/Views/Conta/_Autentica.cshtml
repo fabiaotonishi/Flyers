@@ -1,0 +1,42 @@
+﻿@model Login
+
+<div id="autoriza-conta" class="row row-cols-1 my-5">
+    <div class="col">
+        <div class="text-center">
+            <h3 class="mb-3 font-weight-bold">
+                Entre com a conta
+            </h3>
+        </div>
+    </div>
+    <div class="col">
+        <form class="form-row" asp-action="_Autentica" asp-controller="Conta" asp-route-returnUrl="@ViewBag.Url" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group col-sm-12 mb-3">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control form-control-lg" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group col-sm-12 mb-3">
+                <label asp-for="Senha" class="control-label"></label>
+                <input asp-for="Senha" class="form-control form-control-lg" autocomplete="off" />
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check col-sm-12 mb-3 text-right">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Conectado" />
+                    @Html.DisplayNameFor(model => model.Conectado)
+                </label>
+            </div>
+            <div class="form-group col-sm-12 mb-3">
+                <input type="submit" value="Entrar" data-action="entrar" class="btn btn-primary btn-block btn-lg" />
+            </div>
+        </form>
+    </div>
+    <div class="col">
+        <div class="d-flex flex-column">
+            <div class="p-2 text-center">
+                <a class="small" href="#">Esqueceu sua senha?</a>
+            </div>
+        </div>
+    </div>
+</div>

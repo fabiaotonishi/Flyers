@@ -1,0 +1,34 @@
+﻿@model LayoutViewModel
+
+<form id="edita-aparencia" class="form-row" asp-action="_Edita" asp-controller="Aparencia" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group col-sm-12 mb-3">
+        <label class="control-label small">Sessão</label>
+        <select name="Sessao" asp-items="Model.Sessoes" class="form-control">
+        </select>
+    </div>
+    <div class="form-group col-sm-12 mb-3">
+        <label class="control-label small">Plano de fundo</label>
+        <div class="custom-file">
+            <input asp-for="Arquivo" type="file" class="custom-file-input" lang="pt-br">
+            <label for="Arquivo" class="custom-file-label">Arquivo</label>
+        </div>
+        <span asp-validation-for="Arquivo" class="text-danger"></span>
+    </div>
+    <div class="col-12 text-center shadow-none p-3 bg-light rounded border">
+        <div class="d-grid gap-2 d-md-block">
+            <a asp-action="Index" asp-controller="Home" class="btn btn-secondary btn-icon-split">
+                <span class="icon text-white-50">
+                    <i class="fas fa-arrow-left"></i>
+                </span>
+                <span class="text d-none d-md-block">Voltar</span>
+            </a>
+            <button data-action="enviar-edita" type="submit" class="btn btn-primary btn-icon-split">
+                <span class="icon text-white-50">
+                    <i class="fas fa-file-upload"></i>
+                </span>
+                <span class="text d-none d-md-block">Enviar</span>
+            </button>
+        </div>
+    </div>
+</form>

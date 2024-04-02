@@ -1,0 +1,63 @@
+﻿@model DominioEntity
+
+<div id="detalhes-contatos" class="container">
+    <div class="row row-cols-1 my-5">
+        <div class="col" data-aos="fade-down">
+            <div class="text-center">
+                <h3 class="h1 mb-3 font-weight-bold">
+                    <strong class="d-block h5 text-uppercase">Contatos</strong>
+                    Fale conosco
+                </h3>
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-block d-sm-flex justify-content-center align-content-start">
+                @if (Model.Endereco != null)
+                {
+                    <div class="flex-fill text-center mb-3" data-aos="fade-up">
+                        <div class="d-flex flex-column justify-content-center align-content-start">
+                            <i class="fa fa-3x fa-map-marker"></i>
+                            <h6 class="h5 font-weight-bold my-3"><strong>Endereço</strong></h6>
+                            <address class="vcard">
+                                <p class="text-light adr">
+                                    <span class="street-address">
+                                        @Model.Endereco.Logradouro, @Model.Endereco.Numero
+                                    </span><br>
+                                    <span class="region">@Model.Endereco.Bairro</span><br>
+                                    <span class="country-name">
+                                        @Model.Endereco.Cidade - @Model.Endereco.Uf
+                                    </span><br>
+                                    <span class="postal-code cep">@Model.Endereco.Cep</span>
+                                </p>
+                            </address>
+                        </div>
+                    </div>
+                }
+                @if (!string.IsNullOrWhiteSpace(Model.Email))
+                {
+                    <div class="flex-fill text-center mb-3 pr-md-5" data-aos="fade-down">
+                        <div class="d-flex flex-column justify-content-center align-content-start">
+                            <i class="fa fa-3x fa-envelope"></i>
+                            <h6 class="h5 font-weight-bold my-3"><strong>E-mail</strong></h6>
+                            <a href="mailto:@Model.Email" class="text-decoration-none">
+                                <span class="text-light font-weight-bold">@Model.Email</span>
+                            </a>
+                        </div>
+                    </div>
+                }
+                @if (!string.IsNullOrWhiteSpace(Model.Telefone))
+                {
+                    <div class="flex-fill text-center mb-3" data-aos="fade-up">
+                        <div class="d-flex flex-column justify-content-center align-content-start">
+                            <i class="fa fa-3x fa-phone"></i>
+                            <h6 class="h5 font-weight-bold my-3"><strong>Telefone</strong></h6>
+                            <a href="tel:@Model.Telefone" class="text-decoration-none">
+                                <span class="text-light font-weight-bold tel">@Model.Telefone</span>
+                            </a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

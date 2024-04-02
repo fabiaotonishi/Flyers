@@ -1,0 +1,322 @@
+is_global = true
+build_property.RefitInternalNamespace = Flyers.Web
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Flyers.Web
+build_property.RootNamespace = Flyers.Web
+build_property.ProjectDir = D:\Arquivos Projetos\GitHub\Flyers\Flyers.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Arquivos Projetos\GitHub\Flyers\Flyers.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Aparencia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXEFwYXJlbmNpYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Aparencia/_Edita.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXEFwYXJlbmNpYVxfRWRpdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Aparencia/_Mostra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXEFwYXJlbmNpYVxfTW9zdHJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Aparencia/_Obtem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXEFwYXJlbmNpYVxfT2J0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Categorias/Exibe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXENhdGVnb3JpYXNcRXhpYmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Categorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXENhdGVnb3JpYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Categorias/_Apaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXENhdGVnb3JpYXNcX0FwYWdhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Categorias/_Edita.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXENhdGVnb3JpYXNcX0VkaXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Categorias/_Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXENhdGVnb3JpYXNcX0xpc3RhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Categorias/_Obtem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXENhdGVnb3JpYXNcX09idGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Dominios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXERvbWluaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Dominios/_Edita.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXERvbWluaW9zXF9FZGl0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Dominios/_Obtem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXERvbWluaW9zXF9PYnRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Enderecos/_Edita.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXEVuZGVyZWNvc1xfRWRpdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Enderecos/_Obtem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXEVuZGVyZWNvc1xfT2J0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Membros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE1lbWJyb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Membros/_Edita.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE1lbWJyb3NcX0VkaXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Membros/_Obtem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE1lbWJyb3NcX09idGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Midias/_Apaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE1pZGlhc1xfQXBhZ2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Midias/_Banner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE1pZGlhc1xfQmFubmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Midias/_Imagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE1pZGlhc1xfSW1hZ2VtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Midias/_Poster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE1pZGlhc1xfUG9zdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/OfertasProdutos/_Apaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE9mZXJ0YXNQcm9kdXRvc1xfQXBhZ2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/OfertasProdutos/_Edita.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE9mZXJ0YXNQcm9kdXRvc1xfRWRpdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/OfertasProdutos/_Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE9mZXJ0YXNQcm9kdXRvc1xfTGlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Ofertas/Exibe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE9mZXJ0YXNcRXhpYmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Ofertas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE9mZXJ0YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Ofertas/_Apaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE9mZXJ0YXNcX0FwYWdhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Ofertas/_Edita.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE9mZXJ0YXNcX0VkaXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Ofertas/_Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE9mZXJ0YXNcX0xpc3RhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Ofertas/_Obtem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXE9mZXJ0YXNcX09idGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Produtos/Exibe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFByb2R1dG9zXEV4aWJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Produtos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFByb2R1dG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Produtos/_Apaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFByb2R1dG9zXF9BcGFnYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Produtos/_Edita.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFByb2R1dG9zXF9FZGl0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Produtos/_Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFByb2R1dG9zXF9MaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Produtos/_Obtem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFByb2R1dG9zXF9PYnRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/RedesSociais/_Apaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFJlZGVzU29jaWFpc1xfQXBhZ2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/RedesSociais/_Edita.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFJlZGVzU29jaWFpc1xfRWRpdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/RedesSociais/_Obtem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFJlZGVzU29jaWFpc1xfT2J0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Shared/Components/Aviso/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXEF2aXNvXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Shared/Components/Menu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXE1lbnVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Shared/Components/Perfil/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFBlcmZpbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Shared/_Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFNoYXJlZFxfRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Usuarios/Exibe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFVzdWFyaW9zXEV4aWJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFVzdWFyaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Usuarios/_Apaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFVzdWFyaW9zXF9BcGFnYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Usuarios/_Edita.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFVzdWFyaW9zXF9FZGl0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Usuarios/_Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFVzdWFyaW9zXF9MaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/Usuarios/_Obtem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXFVzdWFyaW9zXF9PYnRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Areas/App/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Contatos/_Detalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcX0RldGFsaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Conta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Conta/_Autentica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFcX0F1dGVudGljYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Produtos/_Destaque.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcX0Rlc3RhcXVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Produtos/_Detalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcX0RldGFsaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Promocao/Components/Menu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jYW9cQ29tcG9uZW50c1xNZW51XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Promocao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jYW9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Promocao/_Destaque.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jYW9cX0Rlc3RhcXVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Promocao/_Detalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jYW9cX0RldGFsaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Promocao/_Listagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jYW9cX0xpc3RhZ2VtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Promocao/_Pesquisa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jYW9cX1Blc3F1aXNhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Shared/Components/Logo/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9nb1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Shared/Components/Menu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Shared/Components/Social/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU29jaWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Shared/Components/WhatsApp/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcV2hhdHNBcHBcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/Sobrenos/_Detalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29icmVub3NcX0RldGFsaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arquivos Projetos/GitHub/Flyers/Flyers.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

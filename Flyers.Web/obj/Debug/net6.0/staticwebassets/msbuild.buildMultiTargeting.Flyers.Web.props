@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Flyers.Web.props" />
+</Project>

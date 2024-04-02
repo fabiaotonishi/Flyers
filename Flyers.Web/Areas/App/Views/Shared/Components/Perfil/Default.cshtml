@@ -1,0 +1,20 @@
+﻿@{ 
+    var usuario = User.Identity.Name;
+}
+<div class="nav-item dropdown no-arrow">
+    <a id="perfil" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="mr-2 d-none d-lg-inline text-gray-600 small">@usuario</span>
+        <i class="fas fa-user-circle fa-2x"></i>
+    </a>
+    <div class="dropdown-menu dropdown-menu-right px-2 shadow animated--grow-in" aria-labelledby="perfil">
+        <a asp-action="Index" asp-controller="Membros"  class="dropdown-item">
+            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+            <span class="text-gray-800">Membro</span>
+        </a>
+        <div class="dropdown-divider"></div>
+        <a asp-action="Finaliza" asp-controller="Conta" asp-area="Default" class="dropdown-item">
+            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+            <span class="text-gray-800">Sair</span>
+        </a>
+    </div>
+</div>

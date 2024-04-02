@@ -1,0 +1,77 @@
+﻿@model PromocaoViewModel
+
+<section id="index-promocao" class="overflow-hidden">
+    <div class="bg-01 text-dark">
+        <div id="index-promocao-detalhes" class="container-cover section-1">
+            @await Html.PartialAsync("_Detalhes.cshtml", Model.Detalhes)
+        </div>
+    </div>
+    <div class="bg-03 text-dark">
+        <div id="index-promocao-catalogo" class="container px-5 section-5">
+            <div class="row row-cols-1 my-5">
+                <div class="col" data-aos="fade-down">
+                    <div class="text-center">
+                        <h3 class="h1 mb-3 font-weight-bold">
+                            <strong class="d-block h5 text-uppercase">Promoção</strong>
+                            Produtos em Oferta
+                        </h3>
+                    </div>
+                </div>
+                <div id="index-promocao-pesquisa" class="col mb-3" data-aos="fade-up">
+                    @await Html.PartialAsync("_Pesquisa.cshtml", Model.Pesquisa)
+                </div>
+                <div id="index-promocao-listagem" class="col mb-3" data-aos="fade-down">
+                    @await Html.PartialAsync("_Listagem.cshtml", Model.Listagem)
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script>
+        $(function () {
+            const $indexPromocaoPesquisa = $('#index-promocao-pesquisa');
+            const $indexPromocaoListagem = $('#index-promocao-listagem');
+
+            $indexPromocaoPesquisa.on('change', 'form', function (evento) {
+                evento.preventDefault();
+                $indexPromocaoPesquisa.find('form').submit();
+            });
+
+            $indexPromocaoPesquisa.on('submit', 'form', function (evento) {
+                evento.preventDefault();
+                try {
+                    webapp.formulario.envia(this)
+                        .then(function (resposta) {
+                            $indexPromocaoListagem.html(resposta);
+                        });
+                } catch (erro) {
+                    console.log(erro);
+                }
+            });
+
+            $indexPromocaoListagem.on('click', 'a[data-action="exibir"]', function (evento) {
+                evento.preventDefault();
+                const url = $(this).attr('href');
+                $(this).dialogoModal("Produto", url, false);
+            });
+
+            $indexPromocaoListagem.on('click', 'button[data-action="voltar"], button[data-action="seguir"]', function (evento) {
+                evento.preventDefault();
+                const index = $(this).data('index');
+                $indexPromocaoPesquisa.find('input[name="Index"]').val(index);
+                $indexPromocaoPesquisa.find('form').submit();
+            });
+
+            $(document).ready(function () {
+                webapp.ui.carrossel.ativa(".owl-carousel");
+                webapp.ui.alvenaria.ativa('.grid-group');
+            });
+
+            $(document).ajaxComplete(function () {
+                webapp.ui.alvenaria.ativa('.grid-group');
+            });
+        });
+    </script>
+}

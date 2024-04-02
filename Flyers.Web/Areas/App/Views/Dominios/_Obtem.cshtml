@@ -1,0 +1,10 @@
+﻿@model DominioEntity
+
+<div id="obtem-dominio" class="row">
+    <div class="col-md-3">
+        @await Html.PartialAsync("~/Areas/App/Views/Midias/_Imagem.cshtml", Model.Imagem)
+    </div>
+    <div class="col-md-9">
+        @await Html.PartialAsync("_Edita.cshtml", Model)
+    </div>
+</div>

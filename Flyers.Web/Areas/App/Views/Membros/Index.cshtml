@@ -1,0 +1,115 @@
+﻿@model MembroViewModel
+@{
+    ViewData["Title"] = "Membro";
+    Layout = "~/Areas/App/Views/Shared/_Dashboard.cshtml";
+}
+
+<div id="index-membro" class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card shadow my-4">
+                <div class="card-header">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="row no-gutters align-items-center mt-3">
+                            <div class="col-auto">
+                                <i class="fas fa-user-circle fa-2x text-gray-300 p-2"></i>
+                            </div>
+                            <div class="col mr-2">
+                                <h3 class="h4 mb-0 font-weight-bold">
+                                    <small class="d-block text-xs font-weight-bold text-gray-800 text-uppercase mb-1">
+                                        @Model.Perfil
+                                    </small>
+                                    @Model.Nome
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="btn-toolbar" role="toolbar">
+                            <div role="group" class="btn-group align-items-center">
+                                <a class="accordion-toggle" data-toggle="collapse" href="#tab-index-membro" aria-expanded="true" aria-controls="tab-index-membro">
+                                    <i class="fa" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a data-action="trocar-index-membro" asp-action="Obtem" asp-controller="membros" class="nav-link active disabled" data-toggle="tab" role="tab" aria-controls="tab-index-membro">
+                                <i class="fa-fw fas fa-user"></i>
+                                <h4 class="text-xs d-none d-md-inline text-uppercase font-weight-bold">
+                                    @ViewData["Title"]
+                                </h4>
+                            </a>
+                        </li>
+                    </ul>
+                    <div id="tab-index-membro" class="tab-content collapse show mb-3">
+                        <div class="tab-pane fade show active mt-3 mx-3" role="tabpanel">
+                            @await Html.PartialAsync("_Obtem.cshtml", Model)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    @await Html.PartialAsync("~/Areas/App/Views/Shared/_ValidationScriptsPartial.cshtml")
+    <script>
+        $(function () {
+            const $indexMembro = $('#index-membro');
+
+            $indexMembro.on('click', 'a[data-action="trocar-index-membro"]', async function (evento) {
+                evento.preventDefault();
+                const $tab = $(this);
+                const url = $tab.attr('href');
+                webapp.ui.bloqueio.ativa(true);
+                $.get(url, async function (resposta, status, jqXHR) {
+                    $indexMembro.find('#tab-index-membro .tab-pane').html(resposta);
+                }).then(function () {
+                    webapp.ui.bloqueio.ativa(false);
+                    $indexMembro.find('.nav-tabs a').removeClass('active disabled')
+                    $tab.addClass('active disabled');
+                    $tab.tab('show');
+                });
+            });
+
+            $indexMembro.on('submit', 'form', function (evento) {
+                evento.preventDefault();
+                try {
+                    $indexMembro.find('button[data-action="salvar-edita"]').attr("disabled", true);
+                    webapp.formulario.envia(this)
+                        .then(function (resposta) {
+                            if (resposta.retorno) {
+                                webapp.ui.mensagem.sucesso("Sucesso", "Operação realizada com sucesso");
+                                setTimeout(function () {
+                                    if (resposta.carrega) {
+                                        const $seletor = $(resposta.seletor);
+                                        $seletor.load(resposta.url);
+                                    }
+                                    else {
+                                        window.location.reload(true);
+                                    }
+                                }, 1000);
+                            }
+                            else {
+                                $indexMembro.find('form').replaceWith(resposta);
+                                webapp.ui.mensagem.atencao("Atenção", "Operação com problemas");
+                            }
+                        });
+                }
+                catch (erro) {
+                    console.log(erro);
+                }
+                finally {
+                    $indexMembro.find('button[data-action="salvar-edita"]').removeAttr("disabled");
+                }
+            });
+
+            $(document).ready(function () {
+                //$indexmembro.find('.nav-item a:first').click();
+            });
+        });
+    </script>
+}

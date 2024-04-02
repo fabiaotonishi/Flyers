@@ -1,0 +1,56 @@
+﻿@model Login
+@{
+    ViewData["Title"] = HttpContextAccessor.HttpContext.Session.GetObject<DominioEntity>("Dominio").Nome;
+    Layout = "~/Areas/App/Views/Shared/_Dashboard.cshtml";
+}
+
+<div id="index-conta" class="container">
+    <div class="d-flex flex-column justify-content-center align-content-center vh-100">
+        <div class="card o-hidden border-0 shadow">
+            <div class="row">
+                <div class="col-md-6 d-none d-lg-block">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                        <img src="~/assets/flyers.png" class="img-fluid w-50 mb-3" />
+                        <small class="d-block text-muted text-uppercase">
+                            Versão 1.0
+                        </small>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-dark m-5">
+                        @await Html.PartialAsync("_Autentica.cshtml", Model)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    @await Html.PartialAsync("~/Areas/App/Views/Shared/_ValidationScriptsPartial.cshtml")
+    <script>
+        $(function () {
+            const $indexConta = $('#index-conta');
+            $indexConta.on('submit', 'form', function (evento) {
+                evento.preventDefault();
+                const url = $(this).attr('action');
+                const model = $(this).serialize();
+                webapp.ui.bloqueio.ativa(true);
+                $.post(url, model, function (resposta) {
+                    console.log(resposta);
+                    if (resposta.valido) {
+                        $('.container').fadeOut("slow", function () {
+                            window.location.href = resposta.url;
+                        });
+                    } else {
+                        $indexConta.find('#autoriza-conta').html(resposta);
+                    }
+                }).fail(function () {
+                    webapp.ui.mensagem.negacao("Erro", "Operação inválida");
+                }).always(function () {
+                    webapp.ui.bloqueio.ativa(false);
+                });
+            });
+        });
+    </script>
+}

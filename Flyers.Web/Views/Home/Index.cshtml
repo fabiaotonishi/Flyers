@@ -1,0 +1,47 @@
+﻿@model DominioEntity
+
+<div id="index-home" class="overflow-hidden">
+    <section class="bg-01 text-dark">
+        <div id="index-home-promocao" class="container-cover section-1">
+        </div>
+    </section>
+    <section class="bg-02 text-white">
+        <div id="index-home-sobrenos" class="container-fluid section-2">
+            @await Html.PartialAsync("~/Views/Sobrenos/_Detalhes.cshtml", Model)
+        </div>
+    </section>
+    <section class="bg-03 text-dark">
+        <div id="index-home-produtos" class="container-fluid section-3">
+        </div>
+    </section>
+    <section class="bg-04 text-white">
+        <div id="index-home-contatos" class="container-fluid section-4">
+            @await Html.PartialAsync("~/Views/Contatos/_Detalhes.cshtml", Model)
+        </div>
+    </section>
+</div>
+
+@section Scripts{
+    <script>
+    $(function () {
+        const $indexHomePromocao = $('#index-home-promocao');
+        const $indexHomeProdutos = $('#index-home-produtos');
+
+        $indexHomeProdutos.on('click', 'a[data-action="exibir"]', function (evento) {
+            evento.preventDefault();
+            const url = $(this).attr('href');
+            $(this).dialogoModal("Produto", url, false);
+        });
+
+        $(document).ready(function () {
+            $indexHomePromocao.load('@Url.Action("Destaque", "Promocao")');
+            $indexHomeProdutos.load('@Url.Action("Destaque", "Produtos")');
+            $('.venobox').venobox();
+        });
+
+        $(document).ajaxComplete(function () {
+            webapp.ui.carrossel.ativaLoop(".owl-carousel");
+        });
+    });
+    </script>
+}

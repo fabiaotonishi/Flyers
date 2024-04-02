@@ -1,0 +1,23 @@
+﻿@model ArquivoEntity
+
+<div id="midia-imagem" class="d-flex flex-column justify-content-start align-items-stretch">
+    <div class="text-left mb-3">
+        <label class="control-label small">Imagem</label>
+    </div>
+    <div class="text-center mb-3">
+        <img src="@Model.Url" class="w-75 img-thumbnail border rounded bg-light mb-3" alt="@Model.Nome">
+    </div>
+    <div class="col-12 text-center shadow-none p-3 mb-3 bg-light rounded border">
+        <div class="btn-group" role="group">
+            <a data-action="editar-modal" asp-action="Poster" asp-controller="Midias" asp-route-id="@Model.Entidade" asp-route-pasta="@Model.Pasta.GetHashCode()" class="btn btn-primary @(Model.Entidade == 0 ? "disabled" : "")">
+                <i class="fa-fw fas fa-portrait"></i>
+            </a>
+            <a data-action="editar-modal" asp-action="Banner" asp-controller="Midias" asp-route-id="@Model.Entidade" asp-route-pasta="@Model.Pasta.GetHashCode()" class="btn btn-primary @(Model.Entidade == 0 ? "disabled" : "")">
+                <i class="fa-fw fa fa-image"></i>
+            </a>
+            <a data-action="apagar-modal" asp-action="Apaga" asp-controller="Midias" asp-route-id="@Model.Id" class="btn btn-danger @(Model.Id == 0 ? "disabled" : "")">
+                <i class="fa fa-eraser"></i>
+            </a>
+        </div>
+    </div>
+</div>

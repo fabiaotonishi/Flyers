@@ -1,0 +1,43 @@
+﻿@model PromocaoViewModel
+
+<form id="edita-oferta-produto" class="form-row" asp-action="_Edita" asp-controller="OfertasProdutos" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group col-sm-8 mb-3">
+        @*<select asp-for="IdCategoria" class="form-control" asp-items="@(new SelectList(Model.Categorias, "Id", "Nome", Model.IdCategoria))">*@
+        <label asp-for="IdCategoria" class="control-label small"></label>
+        <select asp-for="IdCategoria" class="form-control" asp-items="ViewBag.Categorias">
+            <option value="0">Selecione a categoria</option>
+        </select>
+        <span asp-validation-for="IdCategoria" class="text-danger"></span>
+    </div>
+    <div class="form-group col-sm-4 mb-3">
+        <label asp-for="Desconto" class="control-label small"></label>
+        <input asp-for="Desconto" class="form-control text-right" />
+        <span asp-validation-for="Desconto" class="text-danger"></span>
+    </div>
+    <div class="form-group col-sm-12 mb-3">
+        <label asp-for="IdProduto" class="control-label small"></label>
+        <select asp-for="IdProduto" class="form-control" asp-items="@ViewBag.Produtos">
+            <option value="0">Todos</option>
+        </select>
+    </div>
+</form>
+
+<script>
+    $(function () {
+        const $editaOfertaProduto = $('#edita-oferta-produto');
+        const $categoria = $("#IdCategoria");
+        $categoria.change(function (evento) {
+            evento.preventDefault();
+            if ($editaOfertaProduto.length > 0) {
+                webapp.ui.bloqueio.ativa(true);
+                const action = $editaOfertaProduto.attr("action").replace('_', '');
+                $.get(action, { categoria: $(this).val() }, function (resposta, status, jqXHR) {
+                    $editaOfertaProduto.replaceWith(resposta);
+                }).then(function () {
+                    webapp.ui.bloqueio.ativa(false);
+                });
+            }
+        });
+    });
+</script>
